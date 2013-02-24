@@ -1,0 +1,49 @@
+// Bootswatch.less
+// Swatch: Pencil Media
+// -----------------------------------------------------
+
+body {
+	padding-top: 0;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 0 1px 1px rgba(255,255,255,.3); // Smooth the text
+}
+
+// HEADERS
+// -----------------------------------------------------
+
+// Global Headers
+h1 {
+	font-size: 200%;
+}
+h2 {
+	font-size: 175%;
+}
+h3 {
+	font-size: 150%;
+}
+h4 {
+	font-size: 125%;
+}
+
+// Headers with butcon/button
+h1 button,
+h2 button,
+h3 button,
+h4 button,
+h5 button,
+h6 button { 
+	float:right;
+	width: 40px;
+	height: 34px;
+	font-size: 145%;
+	color: @blueDarkest;
+	background: none;
+	border: none;
+	text-align: center;
+	&:hover {
+		color: @navyBlue;
+		background-color: @blue;
+		outline: 1px solid @blueDark;
+	}
+}

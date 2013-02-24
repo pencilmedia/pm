@@ -1,0 +1,144 @@
+
+body {
+	/*background: #f60 url(../img/bg_body.png) repeat-x fixed top left;  orange color is #f93*/
+	background: #bba url(../img/bg_body.png) repeat-x fixed top left; 
+	/*color: #543;*/
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: .85em;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+p {
+	margin-bottom: 1em;
+	line-height: 1.25em;
+}
+
+.slate hr {
+	margin: 3em 0;
+}
+
+dl {
+	padding:0;
+}
+dl dt {
+	font-weight: bold;
+	margin: 1.25em 0 .75em 0;
+}
+dl dd {
+	margin-bottom:.5em;
+	padding-left: 1em;
+}
+dl dd a.selected {
+	font-weight: bold;
+	margin-left: -1.25em;
+	padding-left: 1.25em;
+	background: url(../img/sprite.png) no-repeat -52px -131px;
+}
+dl dd a {
+	line-height: 1.25em;
+}
+dl dt:first-child {
+	margin-top: 0;
+}
+dl.reference {
+	margin-top: 1em;
+}
+dl.reference dt {
+	font-weight: normal;
+	margin: 1em 0 0.25em;
+}
+dl.reference dd {
+	padding-left: 0;
+}
+
+ul {
+	margin-left: 2em;
+	padding:0;
+}
+ul li {
+	margin-bottom:.75em;
+}
+ul li a {
+	line-height: 1.25em;
+}
+
+ul {
+	list-style: square;
+	margin-bottom: 1.5em;
+}
+li {
+	margin:0 1.25em;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.button {
+	font-size: .85em;
+	color: #043F90;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+	cursor: pointer;
+	height: 35px;
+	line-height: 35px;
+	margin: auto 3px auto 0 !important;
+	outline-style: none;
+	padding: 8px 0 15px 15px;
+	white-space: nowrap;
+	background: url(../img/btn_left.png) no-repeat left center;
+}
+.button span {
+	height: 35px;
+	line-height: 35px;
+	margin: 0;
+	padding: 8px 15px 15px 0;
+	background: url(../img/btn_right.png) no-repeat right center;
+}
+.button em {
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-style: normal;
+	font-weight: normal;
+	margin-right: 0;
+	padding: 3px 6px;
+}
+
+.button:hover {
+	text-decoration: none;
+	background: url(../img/btn_left_hvr.png) no-repeat left center;
+}
+.button:hover span {
+	background: url(../img/btn_right_hvr.png) no-repeat right center;
+}
+
+/* Social Bar */
+#social-bar { height: 305px; width: 6px; position: fixed; left: 0px; top: 40%; margin-top: -153px; z-index: 9; }
+#social-bar a { display: block; overflow: hidden; text-indent: -8793px; height: 41px; width: 41px; margin-bottom: 3px; margin-left: -17px }
+#social-bar #ico_facebook  { background: url(../img/sprite.png) -6px -78px }
+#social-bar #ico_home   { background: url(../img/sprite.png) -6px -119px }
+#social-bar #ico_linkedin       { background: url(../img/sprite.png) -6px -160px }
+#social-bar #tooltip { position:absolute; opacity:.8; background: #fff; border:1px solid #432; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; padding:3px; color:#333; font-size:75%; display:none; white-space: nowrap; -moz-box-shadow: 1px 1px 1px #666; -webkit-box-shadow: 1px 1px 1px #666; box-shadow: 1px 1px 1px #666;}
+
+.sml_ico { height: 14px; width: 12px; display: inline-block; float: left; margin-right: 5px; }
+dt .sml_ico { margin-left: -1em; }
+.expand { background: url(../img/sprite.png) -47px -77px;}
+.collapse { background: url(../img/sprite.png) -59px -77px; }
+
+.expand:hover { background-position: -47px -91px;}
+.collapse:hover { background-position: -59px -91px; }
+.expand:hover,
+.collapse:hover { text-decoration: none; }
+.expand span,
+.collapse span { visibility: hidden; }
+
+/* Overlay -------------------------------------------------------------------------------------------------------- */
+
+#overlay .contentWrap label.error { position: absolute; right: 35px; font-size: 12px; color: #c30 }
+#overlay .contentWrap p { padding-bottom: 10px; position:relative; margin: 0 auto }
+#overlay .contentWrap input, #overlay .contentWrap textarea { width:50% }
+#overlay .contentWrap h2 { font-family: 'myriad-pro-1','myriad-pro-2', 'Myriad Pro', Arial, Sans-Serif; font-size: 54px; margin-bottom: 30px }
+
+#overlay .contentWrap { background: url(../img/bg-fancybox.png) repeat-x center bottom #fff; padding: 5em; border: 1px solid #000; }
+#overlay-background, #overlay-background-demo { height: 100%; width: 100%; background: 100%; position: fixed; top: 0; left: 0; background: #000; display: none; z-index:10; }
+.apple_overlay { display:none; width:550px; z-index: 999; }
+#overlay-background-demo { z-index: 999; }
+.apple_overlay .close {	background-image:url(../img/fancy_close.png); position:absolute; right:-14px; top:-13px; cursor:pointer; height:30px; width:30px }
+
+

@@ -1,0 +1,177 @@
+.content {
+	overflow-x: auto;
+	margin: 10% auto;
+	margin-bottom: 5%;
+	padding-top: 1em;
+	width: 850px;
+	min-width: 800px;
+	overflow: hidden;
+}
+
+
+/***************/
+/** IMAGE OVERLAY VIEWER - JQUERY TOOLS **/
+/***************/
+/* the overlayed element */
+.simple_overlay {
+	/* must be initially hidden */
+	display:none;
+	/* place overlay on top of other elements */
+	z-index:10000;
+	padding: 1em;
+	width:auto;	
+	min-height:200px;
+	border:1px solid #666;
+	box-shadow: 0 0 5px 1px #666;
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow: 0 0 5px 1px #666;
+	-webkit-box-shadow: 0 0 5px #666;
+	/* Background Opacity - Child elements aren't get included */
+	background: rgb(255, 255, 255);  /* Fallback for web browsers that doesn't support RGBa */
+	background: rgba(255, 255, 255, 0.5);
+}
+
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+	background: url(../../global/img/fancy_close.png) no-repeat left top;
+	position:absolute;
+	right:-15px;
+	top:-15px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+}
+.simple_overlay img {
+	float:left;
+	width:auto;
+	margin-right:1em;
+}
+.lt_column #dynamic img { 
+	width: 500px; 
+	cursor:pointer;
+}
+.simple_overlay img { 
+	width:650px; 
+}
+
+/* styling for elements inside overlay */
+.details {
+	float:left;
+	width:16em;
+	min-height:88%;
+	overflow:auto;
+	font-size: 90%;
+	border:1px solid #666;
+	/* Background Opacity - Child elements aren't get included */
+	background: rgb(255, 255, 255);  /* Fallback for web browsers that doesn't support RGBa */
+	background: rgba(255, 255, 255, 0.8);
+}
+.details h3 {
+	margin:1em .75em .5em .75em !important;
+}
+.details p {
+	margin-left:1em;
+	margin-right:1em;
+}
+
+/***************/
+/** COLUMNS **/
+/***************/
+.colonnade {
+	overflow: hidden;
+}
+.colonnade .lt_column,
+.colonnade .rt_column {
+	float: left;
+	width: 50%;
+	padding-bottom: 9000px; /* Key property - equal heights */
+	margin-bottom: -9000px; /* Key property - equal heights */
+}
+#about .content .colonnade .lt_column,
+#labs .content .colonnade .lt_column  {
+	width: 65%;
+}
+#about .content .colonnade .rt_column  {
+	margin-top: 2.25em;
+}
+#about .content .colonnade .rt_column,
+#work .content .colonnade .rt_column,
+#labs .content .colonnade .rt_column {
+	width: 29%;
+	padding-left: 3em;
+	padding-top: 2em;
+}
+
+#about .content section.colonnade .lt_column,
+#labs .content section.colonnade .lt_column, 
+#about .content section.colonnade .rt_column,
+#work .content section.colonnade .rt_column,
+#labs .content section.colonnade .rt_column {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+.colonnade .rt_column h3 {
+	font-size: 120%;
+}
+.colonnade .rt_column h3:first-child {
+	margin-top: 0;
+}
+#labs .colonnade .rt_column h3 {
+	margin-top: 2em;
+}
+.colonnade .rt_column dl {
+	overflow: hidden; /* Need this overflow because the fx.js script is overriding a dynamic overflow hidden addition */
+}
+
+
+/***************/
+/** SLATE **/
+/***************/
+.slate {
+	margin: 1em 0;
+	padding: 0 1em 1em 1em;
+	border: 1px solid #432;
+	border-top-color: #e9e9e9;
+	border-left-color: #e9e9e9;
+	
+	/* Background Opacity - Child elements aren't get included */
+	background: rgb(255, 255, 255);  /* Fallback for web browsers that doesn't support RGBa */
+	background: rgba(255, 255, 255, 0.3);
+	
+	/* Box Shadow */
+	-webkit-box-shadow: 1px 1px 2px rgba(0,0, 0, 0.3);
+	-moz-box-shadow: 1px 1px 2px rgba(0,0, 0, 0.3);
+	box-shadow: 1px 1px 2px rgba(0,0, 0, 0.3);
+}
+
+.icons .slate p,
+.logos .slate p {
+	box-sizing: border-box;
+	float: left;
+	width: auto;
+	margin: .5em;
+	padding: 1em;
+}
+
+.logos .slate p {
+	text-align: center;
+    border: 1px solid #432;
+    background: rgba(255,255,255,.8);
+    width: 45%;
+}
+
+
+.slate ul {
+	margin: 1.5em 1.5em 0 1.5em;
+	width: 75%;
+}
+.slate li strong {
+	font-size: 100%;
+}
+.slate li {
+	font-size: 90%;
+	margin:0;
+	padding:0 0 1.5em 0;
+}
