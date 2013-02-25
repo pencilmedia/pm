@@ -24,23 +24,26 @@
 <script>window.jQuery || document.write('<script src="extras/h5bp/js/libs/jquery-1.7.1.min.js"><\/script>')</script><code></code>
 <script src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"></script>
 
-<!-- Bootstrap Component Scripts -->
-<script type="text/javascript" src="bootstrap/js/bootstrap-alert.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap-button.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap-carousel.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap-collapse.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap-dropdown.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap-modal.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap-tooltip.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap-popover.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap-scrollspy.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap-tab.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap-transition.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap-typeahead.js"></script>
 
-<!-- Custom Scripts-->
-<script type="text/javascript" src="assets/js/theme.js"></script>
-<script type="text/javascript" src="assets/js/global.js"></script>
+<?php
+    // Bootstrap Component Scripts
+    echo '<script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-typeahead.js"></script>';
+    // Custom Scripts
+    echo '<script type="text/javascript" src="' . $ROOT . 'assets/js/theme.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'assets/js/global.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'assets/js/fx.js"></script>'; 
+?>
 
 <script type="text/javascript">
     $(document).ready(function () {

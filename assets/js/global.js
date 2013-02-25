@@ -1,5 +1,4 @@
-
-  $(document).ready(function() {
+$(document).ready(function() {
 
 	$("a.overlay").overlay({
 		onBeforeLoad: function() {
@@ -57,16 +56,6 @@
 			return false;
 		});
 	}
-
-	// Portfolio Page add class to trigger animation
-	$('a[data-anim]').hover(function() { 
-		var anim = $(this).attr('data-anim');
-		$(this).removeClass().addClass(anim);
-	},
-	function() {
-		$(this).removeClass();
-	});
-
 
 });// End
 

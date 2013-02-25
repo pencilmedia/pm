@@ -31,9 +31,7 @@
         <a href="https://github.com/pencilmedia/pm">PM GitHub Repo</a>
         </p>
         <ol>
-            <li>Add "Work" directory and update relative paths etc</li>
             <li>Work Photo Overlay Viewer - Currently, only working in illustrations</li>
-            <li>Cleanup config.inc file - remove unecessary variables like "path"</li>
             <li>Convert layout to bootstrap compliant</li>
             <li>Convert "less/theme" CSS into LESS format</li>
             <li>Add web font icons where necessary</li>

@@ -1,4 +1,3 @@
-
 <h3>BDS Marketing Illustration</h3>
 <p>Client requested storyboard sketch in color. The illustration is presenting 3 seperate event ideas on one page.</p>
 <h6>Work Done:</h6>
