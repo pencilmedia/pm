@@ -1,0 +1,86 @@
+
+/* Primary layout divisions */
+
+div#wrapper	{
+	float: left;
+	width: 805px;
+	margin: 0;
+	padding: 0;
+	background: #5989B8 url("../pics/bg_columnLayout2.gif") repeat-y top left;
+	border-right: 15px solid #767676;
+}
+
+div#navWrap {
+	float: left;
+	width: 237px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	background: transparent  url("../pics/5stripe.gif") no-repeat top left;
+}
+
+
+#home div#billboard { /* Billboard for INTERIOR PAGES */
+	float: left;
+	width: 550px;
+	height: 420px;
+	margin-left: -25px;
+	background: transparent url("../pics/billboards/billboard.png") no-repeat top left;
+}
+#interior div#billboard { /* Billboard for INTERIOR PAGES */
+	width: 560px;
+	height: 125px;
+	margin-bottom: 10px;
+	border-bottom: 5px solid #fff;
+	background: transparent url("../pics/billboards/interior-billboard.gif") no-repeat top left;
+}
+
+
+
+div#content {
+	float: left;
+	width: 560px;
+	margin: 0 0 0 5px;
+	color: #23354C;
+	display: inline; /* fixes double float margin in IE */
+	background: url("../pics/bg_billboard.gif") repeat-x top left;
+}
+	
+div.column 	{
+	float: left;
+	width: 47%;
+	height: auto;
+	padding-left: 12px;
+	margin: 0;
+	text-align: left;
+	}
+	
+html>body div.column {
+	/* Correct value for browsers that don't suffer from IE Win's bugs */
+	margin-left: 0px;
+	min-height: 600px;
+	}
+
+	/*   rt-column navs and links 	*/
+	
+.column dd, .lt-column dt {
+	margin-left: 0;
+	padding-left: 0;
+	line-height: 12px;
+	margin-bottom: 3px;
+	}
+
+body .column dt 	{
+	letter-spacing: 2px;
+	margin-top: 2px;
+	color: #000;
+	padding: 0;
+	border: 0;
+}
+
+.column dd a:link, .column dd a:visited {
+	font-weight : normal; 
+}
+
+
+	

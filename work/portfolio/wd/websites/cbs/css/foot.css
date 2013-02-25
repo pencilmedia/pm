@@ -1,0 +1,31 @@
+div#footer	{
+	clear: both;
+	border: 0;
+	background-color: #666;
+	color: #fff;
+	width: 100%;
+	padding: 5px 0 5px 0;
+	margin: 0;
+	background: transparent url("../pics/foot/bg_footer.gif") repeat-y top left;
+	}
+	
+div#footer a {
+	color: #fff;
+}
+	
+div#footer dl {
+	font-size: 90%;
+	line-height: 18px;
+	padding: 0 0 0 25px;
+	margin: 0;
+	background: transparent url("../pics/foot/rt_arrow_green.gif") center left no-repeat;	
+	}
+
+div#footer dt {
+	font-size: 110%;
+	font-weight: bold
+}
+
+div#footer dt, dd {
+	display: inline;
+}

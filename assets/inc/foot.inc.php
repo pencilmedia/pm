@@ -14,7 +14,7 @@
     </div>
     <ul>
         <li><?php echo copyright ?> </li>
-        <li><a href="<?php echo pathToUX ?>"><?php echo uxHead ?></a></li>
+        <li><a <?php echo 'href="' . $ROOT . 'ux/"' ?>><?php echo uxHead ?></a></li>
     </ul>
     <div id="footbar">&nbsp;</div>
 </footer>
@@ -41,8 +41,6 @@
 <!-- Custom Scripts-->
 <script type="text/javascript" src="assets/js/theme.js"></script>
 <script type="text/javascript" src="assets/js/global.js"></script>
-<script type="text/javascript" src="assets/js/contact.js"></script>
-<script type="text/javascript" src="assets/js/validation.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function () {

@@ -1,0 +1,20 @@
+/* For IE PC - patches */
+
+/* DROP SHADOWS IN IE */
+
+
+#home div#billboard {
+	background: none;
+	/* image path should be relative to the page not this file */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pics/billboards/billboard.png', sizingMethod='scale');
+}
+
+/* OPTIONAL DROP SHADOWS IN IE 
+h2, h3
+{
+	display: block;
+	height: 1%;
+	filter: progid:DXImageTransform.Microsoft.DropShadow(color=#666666, offX=1,offY=1);
+	margin-right: -1px;
+}
+*/

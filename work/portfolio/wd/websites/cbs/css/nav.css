@@ -1,0 +1,100 @@
+/*  NAV styles below */
+/* Primary nav 	*/
+body {
+	behavior:url("http://www.pencilmedia.com/css/csshover.htc");
+}
+
+ul#nav {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background-color: #5989B8;
+	width: 227px;
+	padding: 5px;
+	margin: 150px 0 0 0px;
+	text-align: left;
+	list-style-type: none;
+} 
+ul#nav li {
+	position: relative;
+	font-size: 95%;
+	line-height: 2em;
+	letter-spacing: .05em;
+	text-align: right;
+	cursor: pointer;
+}
+
+/* main nav link styles */
+ul#nav li a  {
+	padding-right: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+ul#nav li a:hover {
+	color: #C0DAA7;
+} 
+
+/* rollover effect for submenus */
+ul#nav li.flyout ul li a, ul#nav li.flyout ul li ul li a {
+	color: #336699;
+}
+ul#nav li.flyout ul li a:hover, ul#nav li.flyout ul li ul li a:hover {
+	color: #fff;
+}
+ul#nav li.flyout ul li:hover, ul#nav li.flyout ul li ul li:hover {   /* background color rollover effect for submenus */
+	color: #fff;
+	background-color: #5989B8;
+}
+
+/* list links that have a submenu get this style */
+ul#nav li.flyout, ul#nav li.flyout ul li.flyout-2 {
+	background: url("../pics/icons/nav_arrow.gif") no-repeat center right;
+}
+
+
+/* Submenus */
+ul#nav li.flyout ul, ul#nav li.flyout ul li ul { /* 2nd tier & 3rd tier nav STYLING & Positioning */
+	background-color: #CADDF0;
+	border: 1px solid #000;
+	width: 215px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	white-space: nowrap;
+	position: absolute;
+	top: -2px;
+	left: 225px;
+	*left: ;   /* hack for subnav positioning in IE */
+	*margin-left: -5px;   /* hack for subnav positioning in IE */
+}
+ul#nav li.flyout ul li ul {  /* 3rd tier nav positioning */
+	top: 0;
+	left: 199px;
+}
+ul#nav li.flyout ul li, ul#nav li.flyout ul li ul li {
+	text-align: left;
+	line-height: 2em;
+	padding: 0 0 0 5px;
+	margin: 0;
+	border-bottom: 1px solid #000;
+}
+
+
+/* hovers with specificity */
+ul ul, li:hover ul ul {
+	display:none;
+}
+li:hover ul, li:hover li:hover ul {
+	display: block;
+	z-index: 100px;
+}		
+
+
+
+/* Logo Replacement Method for LoFi / HiFi  */
+
+#logo {
+	float:left;
+	height: 60px;
+	padding: 0;
+	margin: 50px 0px 0px 15px;
+}

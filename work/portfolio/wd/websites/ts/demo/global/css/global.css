@@ -1,0 +1,53 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+body {
+	background-color: #f6f9f9;
+	font-family: Arial, Myriad, Helvetica, sans-serif;
+	font-size: .8em;
+	color: #333;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+p span {
+	margin-right: 5px;
+}
+
+a {
+	color: #8d4a6d;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+dl {
+	min-width: 800px;
+}
+dl dt,
+dl dd {
+	display: block;
+	padding: 5px 0;
+}
+dl dd {
+	margin-left: 3em;
+}
+
+/* Nested DLs */
+dl dl {
+	margin: .5em;
+}
+dl dl dt,
+dl dl dd {
+	padding: 0;
+	width: auto;
+}
+
+ul li {
+	margin-bottom: .5em;
+}

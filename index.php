@@ -1,6 +1,7 @@
-<?php include("assets/inc/config.inc"); ?>
-<?php $thisPage="hmpg"; ?>
-
+<?php 
+    include("assets/inc/config.inc");
+    $thisPage="hmpg"; 
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,13 +31,15 @@
         <a href="https://github.com/pencilmedia/pm">PM GitHub Repo</a>
         </p>
         <ol>
-            <li>Currently, in the HEAD section, the PHP paths are set to http:pm. Change to relative paths.</li>
-            <li>Nav should auto detect tier-1, tier-2, etc through PHP. Should not need two separate nav includes.</li>
-            <li>Code CSS in SCSS format</li>
-            <li>Use Skeleton, Bootstrap, or Foundation Front-End Framework</li>
-            <li>Should I use Beanstalk to deploy automatically to FTP?</li>
-            <li>&nbsp;</li>
+            <li>Add "Work" directory and update relative paths etc</li>
+            <li>Work Photo Overlay Viewer - Currently, only working in illustrations</li>
+            <li>Cleanup config.inc file - remove unecessary variables like "path"</li>
+            <li>Convert layout to bootstrap compliant</li>
             <li>Convert "less/theme" CSS into LESS format</li>
+            <li>Add web font icons where necessary</li>
+            <li>Clean up JavaScripts</li>
+            <li>&nbsp;</li>
+            <li>Should I use Beanstalk to deploy automatically to FTP?</li>
         </ol>
         <h4>Beanstalk Links</h4>
         <p><a href="http://css-tricks.com/video-screencasts/109-getting-off-ftp-and-onto-git-deployment-with-beanstalk/">Chris Coyier Beanstalk Tut</a></p>

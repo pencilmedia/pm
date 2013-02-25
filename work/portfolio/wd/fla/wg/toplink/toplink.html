@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Banner Ads</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+
+  var x = 0;
+  var dest = 0;
+  var distance = 0;
+  var step = 0;
+  var destination = 0;
+
+function scrollFirst(destination) {
+    step = 2;
+    dest = destination;
+    if (x<dest) {
+      while (x<dest) {
+        step += (step / 7);
+        x += step;
+        parent.main.scroll(x,0);
+      } 
+      parent.main.scroll(dest,0);
+      x = dest; }
+if (x > dest)  {
+ while (x>dest) {
+ step += (step / 7);
+if(x >= (0+step))
+          { x -= step; 
+          main.scroll(x,0);         }
+            else { break;  }
+      } if(dest >= 0) { main.scroll(dest,0); }
+x = dest;
+    }
+    if (x<1) {x=1}
+    if (x>5000) {x=5000}
+}
+
+</script>
+<style type="text/css">
+<!--
+.tableContent { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 10px;
+}
+
+#flash { 
+	border: 1px;
+	border-color: #CCC;
+	border-style: solid;
+	}
+
+a:link {  text-decoration: none}
+a:hover {  text-decoration: none; color: #FF66cc}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" topmargin="0" leftmargin="0">
+<table width="100%" height="210" border="0" cellpadding="0" cellspacing="0" id="popup" class="tableContent">
+
+  <tr valign="top"> 
+    <td width="57%"> 
+      <div align="left"></div>
+      <table id="flash" width="100" border="1" cellspacing="0" cellpadding="0" class="tables">
+        <tr>
+          <td bgcolor="#FFFFFF">
+            <table width="413" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="32%" valign="top"> 
+                  <script language="JavaScript">
+
+<!-- Hide from old browsers
+
+var imagenumber = 5 ;
+
+var randomnumber = Math.random() ;
+
+var rand1 = Math.round( (imagenumber-1) * randomnumber) + 1 ;
+
+images = new Array
+
+images[1] = "toplink_1.gif"
+images[2] = "toplink_2.gif"
+images[3] = "toplink_3.gif"
+images[4] = "toplink_4.gif"
+images[5] = "toplink_5.gif"
+
+var image = images[rand1]
+
+// -- End Hiding Here -->
+
+</script>
+                  <script language="JavaScript">
+<!-- Hide this script from old browsers --
+document.write('<IMG SRC="' + image + '" border="0">')
+// -- End Hiding Here -->
+</script>
+                </td>
+                <td width="68%" valign="bottom"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+ width=210 height=140>
+                    <param name=movie value="toplink_1.swf">
+                    <param name=quality value=high>
+                    <param name=bgcolor value=#FFFFFF>
+                    <embed src="toplink_1.swf" quality=high bgcolor=#FFFFFF  width=210 height=140 type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">
+                    </embed> 
+                  </object></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td><p>&nbsp;</p><p>This was a technically difficult project. Due to dropdown  navigation and flash conflicts we needed to design a section of their website to look as if it were all done in flash. </p>
+    <p><h4>Approach:</h4>
+    The animated gif, on the left, is timed with the flash on the right. Needed to time it with loading time and keep file sizes small as possible yet keep the look corporate. Also there is a JavaScript refresh for the gif so it plays all of the value-add points.
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+<p>&nbsp; </p>
+</body>
+</html>

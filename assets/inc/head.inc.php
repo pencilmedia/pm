@@ -10,13 +10,17 @@
 
 <link href="http://www.pencilmedia.com/favicon.ico" rel="Shortcut Icon" type="image/x-icon" />
 
-<!-- Bootstrap Pencil Media Styles -->
-<link rel="stylesheet" type="text/css" href="bootstrap/docs/assets/css/bootstrap.css"><!-- Default Bootstrap Styles -->
-<link rel="stylesheet" type="text/css" href="bootstrap/docs/assets/css/bootstrap-responsive.css">
+<!-- Default Bootstrap Styles -->
+<?php 
+	echo '<link rel="stylesheet" type="text/css" href="' . $ROOT . 'bootstrap/docs/assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="' . $ROOT . 'bootstrap/docs/assets/css/bootstrap-responsive.css">'; 
+?>
 
 <!-- Override Bootstrap Styles -->
-<link rel="stylesheet" type="text/css" href="assets/css/pm-bootstrap.css">
-<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+<?php 
+	echo '<link rel="stylesheet" type="text/css" href="' . $ROOT . 'assets/css/pm-bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="' . $ROOT . 'assets/css/animate.css">'; 
+?>
 
 <!-- Web Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>

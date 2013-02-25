@@ -1,0 +1,101 @@
+	/*  General styles below */
+	
+html { 
+	SCROLLBAR-FACE-COLOR: #cecfce;
+    SCROLLBAR-HIGHLIGHT-COLOR: #F2F9FF;
+    SCROLLBAR-SHADOW-COLOR: #a6a6a6;
+    SCROLLBAR-3DLIGHT-COLOR: #a6a6a6;
+    SCROLLBAR-ARROW-COLOR: #F2F9FF;
+    SCROLLBAR-TRACK-COLOR: #a6a6a6;
+    SCROLLBAR-DARKSHADOW-COLOR: #C1C7CB;
+}
+	
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;	
+	background-color: #999;
+	color: #530;
+}
+
+p {
+	margin: 0 0 15px 0;
+}
+
+img	{
+	border: 0;
+	padding: 0 5px 5px 0;
+}
+	
+	/* Default links 	*/
+	
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #390;
+}
+
+a:hover {
+	color: #96C;
+	text-decoration: underline; 
+	}
+
+	/* Typography 	*/
+	
+h2	{
+	font: normal 20px "Trebuchet MS", Verdana, sans-serif;
+	color:#000;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	text-transform:uppercase;
+	letter-spacing: 0.15em;
+	border-bottom: #000; 
+	border-width: 0px 0px 1px 0px; 
+	border-style: none none dotted none;
+	background: url(../pics/icons/nav_arrow.gif) center right no-repeat;
+	text-shadow: 0.05em 0.15em 0.20em #000;
+	}
+
+h3	{
+	font: normal 18px "Trebuchet MS", Verdana, sans-serif;
+	color: #306;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 0.15em;
+	letter-spacing: 0.15em;
+	}
+
+h4	{
+	font: bold 16px "Trebuchet MS", Verdana, sans-serif;
+	color: #F36;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	letter-spacing: 0.15em;
+	}
+	
+h5	{
+	font: bold 12px "Trebuchet MS", Verdana, sans-serif;
+	color: #000;
+	margin-bottom: 0;
+	margin-top: 5px;
+	letter-spacing: 0.15em;
+	}
+	
+h6 {
+	font: 10px Verdana, Helvetica, sans-serif;
+}
+
+blockquote	{
+	margin-left: 5px;
+	padding-left: 10px;
+	border-left: 1px dotted #000;
+	font-family: century gothic, "New Century Schoolbook", "Bitstream Vera Serif", Utopia, "Times New Roman", times, serif;
+	font-size: 11px;
+	font-style: italic;
+	color: #606;
+	text-align: left;
+	line-height: 150%;
+	}
