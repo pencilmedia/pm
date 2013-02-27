@@ -5,8 +5,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?php echo homeTitle ?></title>
-    <?php include("assets/inc/head.inc.php"); ?>    
+	<title><?php echo homeTitle ?></title>
+	<?php include("assets/inc/head.inc.php"); ?>    
 </head>
 <body id="hmpg">
 
@@ -31,11 +31,10 @@
         <p>Moving website to GIT repository and using Bootstrap framework with SCSS.
         <a href="https://github.com/pencilmedia/pm">PM GitHub Repo</a>
         </p>
-        <ol style="color: darkred">
+        <ol>
             <li>Work Photo Overlay Viewer - Currently, only working in illustrations</li>
             <li>Convert layout to bootstrap compliant</li>
             <li>Convert "less/theme" CSS into LESS format</li>
-            <li>Need to work on Responsive Design (Nav, Footer, Homepage, etc)</li>
             <li>Add web font icons where necessary</li>
             <li>Clean up JavaScripts</li>
             <li>&nbsp;</li>

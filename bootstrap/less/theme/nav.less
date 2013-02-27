@@ -1,78 +1,88 @@
 /* HEADER */
 header {
-	background: url(../img/bg_header.png) repeat-x top left; /* orange color is #f93*/
+	background: url("../img/bg_header.png") repeat-x top left; /* orange color is #f93*/
 	position: fixed;
 	top: 0;
 	z-index: 5;
 	text-align: center;
 	width: 100%;
-}
-header h1 {
-	margin: 0;
-	padding: 0;
-	height: 100px;
-	background: url(../img/bg_logo.png) no-repeat center center;
-}
-header h1 img {
-	margin: 10px auto;
-}
+	.navbar-inner {
+		h1 {
+			margin: 0;
+			padding: 0;
+			height: 100px;
+			background: url(../img/bg_logo.png) no-repeat center center;
+		}
+		h1 img {
+			margin: 10px auto;
+		}
 
-/* MAIN NAV */
-header nav {
-	position:absolute;
-	right:0;
-	top:35px;
-	width:325px;
-	height:30px;
-}
-header nav ul {
-	margin:0;
-	padding:0;
-}
-header nav li {
-	display: inline;
-	margin: 0;
-	padding: 0 2em;
-}
-header nav li:first-child {
-	border-left: none;
-}
-header nav li,
-header nav li a {
-	font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
-	color: #333;
-	text-decoration: none;
-}
-header nav a:hover ,
-header nav li#selected a {
-	color: #0F20BC;
-	text-decoration: none;
-}
+		/* MAIN NAV */
+		nav {
+			position:absolute;
+			right:0;
+			top:35px;
+			width:325px;
+			height:30px;
+			ul {
+				margin:0;
+				padding:0;
+			}
+			li {
+				display: inline;
+				margin: 0;
+				padding: 0 2em;
+			}
+			li:first-child {
+				border-left: none;
+			}
+			li,
+			li a {
+				font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
+				color: #333;
+				text-decoration: none;
+			}
+			a:hover ,
+			li#selected a {
+				color: #0F20BC;
+				text-decoration: none;
+			}
 
-/* WORK NAV */
-
-nav.subnav ul {
-	margin:0 0 1em 0;
-	padding:0;
+			/* WORK NAV */
+			.subnav ul {
+				margin:0 0 1em 0;
+				padding:0;
+			}
+			.subnav li {
+				display: inline;
+				margin: 0;
+				padding: 0 1.5em;
+			}
+			.subnav li:first-child {
+				padding-left: 0;
+				border-left: none;
+			}
+			.subnav li,
+			.subnav li a {
+				color: #333;
+				font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
+				text-decoration: none;
+			}
+			.subnav a:hover,
+			.subnav li#selected a {
+				color: #0F20BC;
+			}
+		}
+	}
 }
-nav.subnav li {
-	display: inline;
-	margin: 0;
-	padding: 0 1.5em;
-}
-nav.subnav li:first-child {
-	padding-left: 0;
-	border-left: none;
-}
-nav.subnav li,
-nav.subnav li a {
-	color: #333;
-	font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
-	text-decoration: none;
-}
-nav.subnav a:hover,
-nav.subnav li#selected a {
-	color: #0F20BC;
+.navbar-fixed-top {
+	.navbar-inner {
+		background: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		border: none;
+	}
 }
 
 

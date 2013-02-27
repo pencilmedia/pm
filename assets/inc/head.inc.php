@@ -6,20 +6,20 @@
 <meta name="Copyright" content="Copyright (c)1999-2012 PencilMedia.com" />
 <meta name="description" content="Web services dedicated to standards-compliant web development and graphic design." />
 <meta name="keywords" content="web design, multimedia, web page design, graphic design, web design directory, tableless layout, css, cascading stylesheets, stylesheet, style, web, standards, xhtml, css, graphic, design, layout, usability, accessibility, tableless layout, freelance, markup, web development, icons, california web,  graphics, flash, print design, typography, business, media, communications, marketing communications, marketing, animation, designers, new media design, California, Silicon Valley, Bay Area, San Jose, Orange County, Southern California" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2, user-scalable=yes">
 <link href="http://www.pencilmedia.com/favicon.ico" rel="Shortcut Icon" type="image/x-icon" />
 
 <!-- Default Bootstrap Styles -->
 <?php 
-	echo '<link rel="stylesheet" type="text/css" href="' . $ROOT . 'bootstrap/docs/assets/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="' . $ROOT . 'bootstrap/docs/assets/css/bootstrap-responsive.css">'; 
+	echo '<link rel="stylesheet" href="' . $ROOT . 'bootstrap/docs/assets/css/bootstrap.css">
+	<link rel="stylesheet" href="' . $ROOT . 'bootstrap/docs/assets/css/bootstrap-responsive.css">'; 
 ?>
 
 <!-- Override Bootstrap Styles -->
 <?php 
 	echo '<link rel="stylesheet" type="text/css" href="' . $ROOT . 'assets/css/pm-bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="' . $ROOT . 'assets/css/animate.css">'; 
+	<link rel="stylesheet" href="' . $ROOT . 'assets/css/pm-responsive.css">
+	<link rel="stylesheet" href="' . $ROOT . 'assets/css/animate.css">'; 
 ?>
 
 <!-- Web Fonts -->

@@ -21,7 +21,7 @@
 
 <!-- CDN Scripts-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="extras/h5bp/js/libs/jquery-1.7.1.min.js"><\/script>')</script><code></code>
+<script>window.jQuery || document.write('<script src="extras/h5bp/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 <script src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"></script>
 
 
