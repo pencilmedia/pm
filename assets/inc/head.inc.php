@@ -11,8 +11,8 @@
 
 <!-- Default Bootstrap Styles -->
 <?php 
-	echo '<link rel="stylesheet" href="' . $ROOT . 'bootstrap/docs/assets/css/bootstrap.css">
-	<link rel="stylesheet" href="' . $ROOT . 'bootstrap/docs/assets/css/bootstrap-responsive.css">'; 
+	echo '<link rel="stylesheet" href="' . $ROOT . 'bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="' . $ROOT . 'bootstrap/bootstrap-responsive.css">'; 
 ?>
 
 <!-- Override Bootstrap Styles -->
@@ -24,3 +24,4 @@
 
 <!-- Web Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+

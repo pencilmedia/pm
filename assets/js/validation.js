@@ -31,10 +31,12 @@ $(document).ready(function(){
 			email.removeClass("error");
 			emailInfo.text("");
 			emailInfo.removeClass("error");
+			emailInfo.hide();
 			return true;
 		}
 		//if it's NOT valid
 		else{
+			emailInfo.show();
 			email.addClass("error");
 			emailInfo.text("Valid email address please.");
 			emailInfo.addClass("error");
@@ -45,6 +47,7 @@ $(document).ready(function(){
 		//if it's NOT valid
 		if(name.val().length < 2){
 			name.addClass("error");
+			nameInfo.show();
 			nameInfo.text("We want names with more than 1 letter!");
 			nameInfo.addClass("error");
 			return false;
@@ -54,6 +57,7 @@ $(document).ready(function(){
 			name.removeClass("error");
 			nameInfo.text("");
 			nameInfo.removeClass("error");
+			nameInfo.hide();
 			return true;
 		}
 	}
@@ -61,6 +65,7 @@ $(document).ready(function(){
 		//it's NOT valid
 		if(message.val().length < 5){
 			message.addClass("error");
+			messageInfo.show();
 			messageInfo.text("What is this regarding?");
 			messageInfo.addClass("error");
 			return false;
@@ -70,6 +75,7 @@ $(document).ready(function(){
 			message.removeClass("error");
 			messageInfo.text("");
 			messageInfo.removeClass("error");
+			messageInfo.hide();
 			return true;
 		}
 	}

@@ -13,9 +13,9 @@
 <body id="about">
 	<?php include("../assets/inc/nav/nav.inc.php"); ?>
 	<?php include("../assets/inc/socialbar.inc.php"); ?>
-    <div class="content">
+    <section class="content">
     	<div class="colonnade">
-        	<div class="lt_column">
+        	<article class="lt_column">
                 <h2><?php echo aboutHead ?></h2>
                 <p>Pencil Media is the creative outlet of Ralph Garcia. I am passionate about design, typography, and the tools of the web. The design of a site plays a primary role in the interpretation of a message. It creates a critical, lasting impression and encourages curiousity. Accessible, understandable information and beauty of form can capture the attention of visitors.</p>
                 <p>Story can be a <a href="http://adactio.com/journal/1499/">compelling design tool</a>. A good story captures your attention and leaves you wondering what will happen next. It guides  and manipulates your emotions leaving you with an intended mood. The design of a site is the narrator. It sets the mood of your topic.	A beautifully designed site will do the same for your audience.</p>
@@ -35,7 +35,7 @@
                         <dd><a href="http://www.theleagueofmoveabletype.com/" class="ico leaguetype">The League of Moveable Type</a></dd>
                     </dl>
                 </section>
-        	</div>
+        	</article>
             <aside class="rt_column">
                   <dl>
                     <dt><h3>PM Properties</h3></dt>
@@ -83,7 +83,7 @@
                 </dl>
             </aside>
         </div>
-    </div>
+    </section>
 	<?php include("../assets/inc/foot.inc.php"); ?>
 </body>
 </html>

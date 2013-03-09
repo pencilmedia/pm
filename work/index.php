@@ -13,7 +13,7 @@
 <body id="work" class="portfolio">
 <?php include("../assets/inc/nav/nav.inc.php"); ?>
 <?php include("../assets/inc/socialbar.inc.php"); ?>
-<div class="content">
+<section class="content">
   <h2><?php echo workHead ?></h2>
   <?php include("../assets/inc/nav/work.inc.php"); ?>
   <ul class="grid">
@@ -34,7 +34,7 @@
     <li><a href="work_view.php#bds" data-anim="tada"><span>BDS Marketing</span></a></li>
   </ul>
   <!-- End: Slate -->
-</div>
+</section>
 <?php include("../assets/inc/foot.inc.php"); ?>
 </body>
 </html>

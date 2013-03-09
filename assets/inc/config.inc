@@ -2,6 +2,7 @@
 
 // Copyright Info
 define("copyright", "&copy;" . date('Y') . " Pencil Media");
+define("pathToLabs", "http://labs.pencilmedia.com/");
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Browser Titles

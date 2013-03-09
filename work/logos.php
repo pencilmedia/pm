@@ -13,11 +13,11 @@
 <body id="work" class="logos">
 	<?php include("../assets/inc/nav/nav.inc.php"); ?>
 	<?php include("../assets/inc/socialbar.inc.php"); ?>
-	<div class="content">
+	<section class="content">
     <h2><?php echo workHead ?></h2>
     <?php include("../assets/inc/nav/work.inc.php"); ?>
     	  <div class="colonnade">
-        	  <div class="lt_column">
+        	  <article class="lt_column">
                     <div class="slate" style="overflow: auto;">
                         <?php
                             function scandir_recursive($dir) {
@@ -41,15 +41,13 @@
                         ?>
                          
             	</div>
-            </div>
-            <div class="rt_column">
+            </article>
+            <aside class="rt_column">
             	<h3>Logo Development</h3>
                 <p>An example of a small selection of  icons I have created from concept to creation.</p>
-            </div>
+            </aside>
         </div>
-    
-        </div>
-    </div>
+    </section>
 	<?php include("../assets/inc/foot.inc.php"); ?>
 </body>
 </html>

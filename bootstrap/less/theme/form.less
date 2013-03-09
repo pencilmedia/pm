@@ -1,39 +1,68 @@
 
 /******** Contact Form *********/
-fieldset {
-	margin: 1em;
-	padding: 1em;
-	border: 1px solid #e5e5e5;
-}
-legend {
-	text-transform: uppercase;
-	margin-left: 1em;
-	letter-spacing: .2em;
-}
-label {
-	display: inline-block;
-	font-weight: bold;
-	text-align: right;
-	margin-right: 3px;
-	width: 30%;
-}
-.lbl_wheight label {
-	display: block;
-	float: left;
-	clear: left;
-}
-input, select, textarea {
-	width: 65%;
-	border-left: 1px solid #fff;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #666;
-	border-right: 1px solid #666;
-	padding: 3px;
-	background-color: #EDECED;
-}
 
-.focus_field {
-	background: #FFF url(../img/bg_focus_field.png) repeat-x left top;
+form {
+	fieldset {
+		padding: 1em;
+		border: 1px solid #e5e5e5;
+		legend {
+			text-transform: uppercase;
+			margin-left: 1em;
+			letter-spacing: .2em;
+			font-size: 100%;
+			width: auto;
+			margin-bottom: 0;
+			line-height: 16px;
+			border: none;
+		}
+		label {
+			font-weight: bold;
+		}
+		span.required {
+			color: #903;
+			margin-right: 3px;
+		}
+		p {
+			margin: 0;
+			padding-bottom: 15px;
+			textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+				width: 97%;
+				border-left: 1px solid @grayLightest;
+				border-top: 1px solid @grayLightest;
+				border-bottom: 1px solid @grayLight;
+				border-right: 1px solid @grayLight;
+				margin: 0;
+				padding: 3px;
+				background-color: #EDECED;
+			}
+			input[type="text"].error {  
+			    border-color: @red;  
+				background: #f8dbdb url(../img/bg_focus_field_error.png) repeat-x left top;
+			}
+			textarea.error {
+			    border-color: @red;
+				background: #f8dbdb url(../img/bg_focus_field_error.png) repeat-x left top;  
+			} 
+			span.error {  
+				display: none;
+				color: @red;
+				text-align: right;
+			}
+			.focus_field {
+				background: #FFF url(../img/bg_focus_field.png) repeat-x left top;
+			}
+		} 
+		input + span {
+			font-size: 95%;  
+			font-style: italic;
+			margin-bottom: 5px;  
+		}   
+		.instructions {
+			font-size: 85%;
+			margin: .5em 0 1.5em 0;
+		}
+
+	}
 }
 .disclaimer {
 	color: #666;
@@ -41,86 +70,24 @@ input, select, textarea {
 	margin-top: 10px;
 }
 
- input.error {  
-    border-color: #903;  
-	background: #f8dbdb url(../img/bg_focus_field_error.png) repeat-x left top;
- }
-  textarea.error {
-    border-color: #903;
-	background: #f8dbdb url(../img/bg_focus_field_error.png) repeat-x left top;  
- } 
-#contact p input + span {  
-     margin-left: 3px;
-     font-size: 10px;  
-     font-style: italic;  
- }  
-  span.error {  
- 	display: block;
-     color: #903; 
-	 font-weight: bold;
-	 text-align: right;
- }  
- #error {  
-     margin-bottom: 20px;  
-     border: 1px solid #82602c;  
- }  
- #error ul {  
-     list-style: square;  
-     padding: 5px;  
-     font-size: 11px;  
- }  
- #error ul li {  
-     list-style-position: inside;  
-     line-height: 1.6em;  
- }  
- #error ul li strong {  
-     color: #903;  
- } 
-span.required {
-	color: #903;
-	margin-right: 3px;
-}
-/*
-#send {
-	margin-left: 25%;
-	cursor: pointer;
-	width: 80px;
-	height: 35px;
-	border: none;
-	background: url(../img/btn_send.png) no-repeat left top; 
-}
-#send span {
+#nameInfo,
+#emailInfo,
+#messageInfo {
 	display: none;
+	width: 100%;
+	text-align: left;
 }
-#send:hover {
-	background: url(../img/btn_send_hover.png) no-repeat left top; 
-}*/
-fieldset legend + p { /* to cancel margins on the required field message*/
-	margin: 0 0 .5em 30%;
-	color: #666;
-	font-size: 85%;
-}
-fieldset p:last-child { /* to raise the #send button up*/
-	margin-top: -1.75em;
-}
+
 
 
 /* CONTACT RESULTS */
-#contactResults h5 {
-	margin: 5px 0 0 0 !important;
+#contactResults {
+	h5 {
+		margin: 5px 0 0 0 !important;
+	}
+	#contactResults label {
+		display: inline;
+		font-weight: bold;
+		margin-right: 5px;
+	}
 }
-#contactResults label {
-	display: inline;
-	font-weight: bold;
-	margin-right: 5px;
-}
-
-#nameInfo,
-#emailInfo,
-messageInfo {
-	display: block;
-	width: 100%;
-	text-align: center;
-}
-
-.form_warning {border:1px solid #999;margin-bottom:2em;padding:1em;width:96%;background-color:#FEFFF6;font-size:.75em;color:#903;}

@@ -45,7 +45,7 @@
                     $forminfo = 
                     (
                         //$dateHeader . "<p>" . date("M-d-Y") . "</p>" .
-                        $header . "<div style='margin: 1em; border: 1px solid #ffd4a0; padding: 1em'><h4 style=\"color:#548; font-size:120%; padding: .5em 0 1em 0;\">Inquiry Information from " . $name .  "</h4>" .
+                        $header . "<div><h4>Inquiry Information from " . $name .  "</h4>" .
                         "<p><label>Date:  </label>" . date("M-d-Y") .  "</p>" .
 						"<p><label>Name:  </label>" . $name .  "</p>" .
                         "<p><label>Phone:  </label>" . $phone .  "</p>" .

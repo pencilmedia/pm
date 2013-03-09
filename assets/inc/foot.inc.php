@@ -20,14 +20,17 @@
 </footer>
 
 <!-- CDN Scripts-->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script>window.jQuery || document.write('<script src="extras/h5bp/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-<script src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"></script>
+<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+
+
 
 
 <?php
     // Bootstrap Component Scripts
     echo '<script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-affix.js"></script>
     <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-button.js"></script>
     <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-carousel.js"></script>
     <script type="text/javascript" src="' . $ROOT . 'bootstrap/js/bootstrap-collapse.js"></script>

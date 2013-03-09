@@ -171,8 +171,6 @@ header .navbar-inner nav {
   top: 35px;
   width: 325px;
   height: 30px;
-  /* WORK NAV */
-
 }
 header .navbar-inner nav ul {
   margin: 0;
@@ -197,29 +195,6 @@ header .navbar-inner nav li#selected a {
   color: #0F20BC;
   text-decoration: none;
 }
-header .navbar-inner nav .subnav ul {
-  margin: 0 0 1em 0;
-  padding: 0;
-}
-header .navbar-inner nav .subnav li {
-  display: inline;
-  margin: 0;
-  padding: 0 1.5em;
-}
-header .navbar-inner nav .subnav li:first-child {
-  padding-left: 0;
-  border-left: none;
-}
-header .navbar-inner nav .subnav li,
-header .navbar-inner nav .subnav li a {
-  color: #333;
-  font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
-  text-decoration: none;
-}
-header .navbar-inner nav .subnav a:hover,
-header .navbar-inner nav .subnav li#selected a {
-  color: #0F20BC;
-}
 .navbar-fixed-top .navbar-inner {
   background: none;
   -webkit-box-shadow: none;
@@ -227,103 +202,70 @@ header .navbar-inner nav .subnav li#selected a {
   box-shadow: none;
   border: none;
 }
-/* Tabs -------------------------------------------------------------------------------------------------------- */
-.panes div {
-  display: none;
-  margin-top: 1em;
-  padding: 15px 10px;
-  border-top: 0;
-}
-/* root element for tabs  */
-.tabulous ul.tabs {
-  list-style: none;
-  margin: 0 !important;
+/* WORK SubNav */
+.subnav ul {
+  margin: 0 0 1em 0;
   padding: 0;
-  height: 30px;
 }
-/* single tab */
-.tabulous ul.tabs li {
-  float: left;
-  text-indent: 0;
-  padding: 0;
-  margin: 0 0 0 -1px;
-  list-style-image: none !important;
-}
-.tabulous ul.tabs li:first-child {
+.subnav li {
+  display: inline;
   margin: 0;
-}
-.tabulous ul.tabs li a:last-child {
-  border-right: 1px solid #333;
-}
-/* link inside the tab. uses a background image */
-.tabulous ul.tabs a {
-  position: relative;
-  top: 1px;
-  display: block;
-  height: 30px;
-  line-height: 30px;
-  width: 120px;
-  font-size: 11px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-  background: url(http://www.pencilmedia.com/global/img/bg_tabs.png) no-repeat -420px 0;
+  padding: 0 1.5em;
   color: #333;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+  font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
+  text-decoration: none;
 }
-.tabulous ul.tabs a:active {
-  outline: none;
+.subnav li a {
+  color: #333;
+  font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
+  text-decoration: none;
 }
-/* when mouse enters the tab move the background image */
-.tabulous ul.tabs a:hover {
-  background-position: -420px -31px;
+.subnav li:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+.subnav a:hover,
+.subnav li#selected a {
   color: #0F20BC;
 }
-/* active tab uses a class name "current". its highlight is also done by moving the background image. */
-.tabulous ul.tabs a.current,
-.tabulous ul.tabs a.current:hover,
-.tabulous ul.tabs li.current a {
-  background-position: -420px -62px;
-  cursor: default !important;
-  color: #0F20BC;
+/* Tabs -------------------------------------------------------------------------------------------------------- */
+.nav-pills {
+  margin: 0 1px 20px 1px;
+  background-image: -webkit-radial-gradient(50% 50%, farthest-corner, #cccccc, #d9d9d9);
+  background-image: -moz-radial-gradient(50% 50%, farthest-corner, #cccccc, #d9d9d9);
+  background-image: -o-radial-gradient(50% 50%, farthest-corner, #cccccc, #d9d9d9);
+  background-image: -ms-radial-gradient(50% 50%, farthest-corner, #cccccc, #d9d9d9);
+  background-image: radial-gradient(50% 50%, farthest-corner, #cccccc, #d9d9d9);
+  border: 1px solid #ffffff;
+  outline: 1px solid #333333;
+  box-shadow: inset 0 0 13px #999999;
 }
-/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
-/* width 1 */
-.tabulous ul.tabs a.s {
-  background-position: -553px 0;
-  width: 81px;
+.nav-pills > li {
+  text-align: center;
+  width: 115px;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #999999;
 }
-.tabulous ul.tabs a.s:hover {
-  background-position: -553px -31px;
+.nav-pills > li:last-child {
+  border-right: none;
 }
-.tabulous ul.tabs a.s.current {
-  background-position: -553px -62px;
+.nav-pills > li > a {
+  font-size: 85%;
+  padding: 0;
+  border-radius: 0;
 }
-/* width 2 */
-.tabulous ul.tabs a.l {
-  background-position: -248px 0px;
-  width: 174px;
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+  color: #772953;
+  background-color: #d9d9d9;
 }
-.tabulous ul.tabs a.l:hover {
-  background-position: -248px -31px;
-}
-.tabulous ul.tabs a.l.current {
-  background-position: -248px -62px;
-}
-/* width 3 */
-.tabulous ul.tabs a.xl {
-  background-position: 0 0px;
-  width: 248px;
-}
-.tabulous ul.tabs a.xl:hover {
-  background-position: 0 -31px;
-}
-.tabulous ul.tabs a.xl.current {
-  background-position: 0 -62px;
-}
-/* initially all panes are hidden */.panes .pane {
-  display: none;
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  border: 1px solid transparent;
+  background-color: #d9d9d9;
 }
 body {
   /*background: #f60 url(../img/bg_body.png) repeat-x fixed top left;  orange color is #f93*/
@@ -339,40 +281,38 @@ p {
   margin-bottom: 1em;
   line-height: 1.25em;
 }
-.slate hr {
-  margin: 3em 0;
-}
 dl {
   padding: 0;
+  padding-left: 5px;
 }
 dl dt {
   font-weight: bold;
   margin: 1.25em 0 .75em 0;
 }
-dl dd {
-  margin-bottom: .5em;
-  padding-left: 1em;
+dl dt:first-child {
+  margin-top: 0;
 }
-dl dd a.selected {
+dl dd {
+  line-height: 24px;
+}
+dl dd a {
+  line-height: 1.25em;
+}
+dl dd .selected {
   font-weight: bold;
   margin-left: -1.25em;
   padding-left: 1.25em;
   background: url(../img/sprite.png) no-repeat -52px -131px;
 }
-dl dd a {
-  line-height: 1.25em;
-}
-dl dt:first-child {
-  margin-top: 0;
-}
-dl.reference {
+dl .reference {
   margin-top: 1em;
+  padding-left: 0;
 }
-dl.reference dt {
+dl .reference dt {
   font-weight: normal;
   margin: 1em 0 0.25em;
 }
-dl.reference dd {
+dl .reference dd {
   padding-left: 0;
 }
 ul {
@@ -381,17 +321,15 @@ ul {
 }
 ul li {
   margin-bottom: .75em;
+  margin: 0 1.25em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
 }
 ul li a {
   line-height: 1.25em;
 }
-ul {
+ul ul {
   list-style: square;
   margin-bottom: 1.5em;
-}
-li {
-  margin: 0 1.25em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
 }
 .button {
   font-size: .85em;
@@ -566,6 +504,145 @@ dt .sml_ico {
   width: 850px;
   min-width: 800px;
   overflow: hidden;
+  /***************/
+
+  /** COLUMNS **/
+
+  /***************/
+
+}
+.content .colonnade {
+  overflow: hidden;
+}
+.content .colonnade .lt_column,
+.content .colonnade .rt_column {
+  box-sizing: border-box;
+  float: left;
+  padding-bottom: 9000px;
+  /* Key property - equal heights */
+
+  margin-bottom: -9000px;
+  /* Key property - equal heights */
+
+}
+.content .colonnade .lt_column {
+  width: 65%;
+  /***************/
+
+  /** SLATE **/
+
+  /***************/
+
+}
+.content .colonnade .lt_column h3 {
+  margin-top: 0;
+}
+.content .colonnade .lt_column .slate {
+  overflow: auto;
+  margin: 1em 0;
+  padding: 0 1em 1em 1em;
+  border: 1px solid #432;
+  border-top-color: #e9e9e9;
+  border-left-color: #e9e9e9;
+  /* Background Opacity - Child elements aren't get included */
+
+  background: #ffffff;
+  /* Fallback for web browsers that doesn't support RGBa */
+
+  background: rgba(255, 255, 255, 0.3);
+  /* Box Shadow */
+
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.content .colonnade .lt_column .slate ul {
+  margin: 1.5em 1.5em 0 1.5em;
+  width: 75%;
+}
+.content .colonnade .lt_column .slate ul li {
+  font-size: 90%;
+  margin: 0;
+  padding: 0 0 1.5em 0;
+}
+.content .colonnade .lt_column .slate ul li strong {
+  font-size: 100%;
+}
+.content .colonnade .lt_column .slate hr {
+  margin: 3em 0;
+}
+.content .colonnade .lt_column .lt_column,
+.content .colonnade .lt_column .rt_column {
+  width: 50%;
+  margin: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.content .colonnade .lt_column .lt_column dt,
+.content .colonnade .lt_column .rt_column dt,
+.content .colonnade .lt_column .lt_column dd,
+.content .colonnade .lt_column .rt_column dd {
+  margin: 0;
+}
+.content .colonnade .rt_column {
+  width: 31%;
+  margin-left: 4%;
+}
+.content .colonnade .rt_column h3 {
+  font-size: 120%;
+}
+.content .colonnade .rt_column h3:first-child {
+  margin-top: 0;
+}
+.content .colonnade .rt_column dl {
+  overflow: hidden;
+  /* Need this overflow because the fx.js script is overriding a dynamic overflow hidden addition */
+
+}
+.icons .slate p,
+.logos .slate p {
+  box-sizing: border-box;
+  float: left;
+  width: auto;
+  margin: .5em;
+  padding: 1em;
+}
+.logos .slate p {
+  text-align: center;
+  border: 1px solid #432;
+  background: rgba(255, 255, 255, 0.8);
+  width: 45%;
+}
+#contact .content .colonnade .lt_column,
+#contact .content .colonnade .rt_column {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+#labs .colonnade .rt_column h3 {
+  margin-top: 2em;
+}
+/* styling for elements inside overlay */
+.details {
+  float: left;
+  width: 16em;
+  min-height: 88%;
+  overflow: auto;
+  font-size: 90%;
+  border: 1px solid #666;
+  /* Background Opacity - Child elements aren't get included */
+
+  background: #ffffff;
+  /* Fallback for web browsers that doesn't support RGBa */
+
+  background: rgba(255, 255, 255, 0.8);
+}
+.details h3 {
+  margin: 1em .75em .5em .75em !important;
+}
+.details p {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 /***************/
 /** IMAGE OVERLAY VIEWER - JQUERY TOOLS **/
@@ -593,8 +670,9 @@ dt .sml_ico {
   /* Fallback for web browsers that doesn't support RGBa */
 
   background: rgba(255, 255, 255, 0.5);
+  /* close button positioned on upper right corner */
+
 }
-/* close button positioned on upper right corner */
 .simple_overlay .close {
   background: url(../../global/img/fancy_close.png) no-repeat left top;
   position: absolute;
@@ -608,136 +686,11 @@ dt .sml_ico {
   float: left;
   width: auto;
   margin-right: 1em;
-}
-.lt_column #dynamic img {
-  width: 500px;
-  cursor: pointer;
-}
-.simple_overlay img {
   width: 650px;
 }
-/* styling for elements inside overlay */
-.details {
-  float: left;
-  width: 16em;
-  min-height: 88%;
-  overflow: auto;
-  font-size: 90%;
-  border: 1px solid #666;
-  /* Background Opacity - Child elements aren't get included */
-
-  background: #ffffff;
-  /* Fallback for web browsers that doesn't support RGBa */
-
-  background: rgba(255, 255, 255, 0.8);
-}
-.details h3 {
-  margin: 1em .75em .5em .75em !important;
-}
-.details p {
-  margin-left: 1em;
-  margin-right: 1em;
-}
-/***************/
-/** COLUMNS **/
-/***************/
-.colonnade {
-  overflow: hidden;
-}
-.colonnade .lt_column,
-.colonnade .rt_column {
-  float: left;
-  width: 50%;
-  padding-bottom: 9000px;
-  /* Key property - equal heights */
-
-  margin-bottom: -9000px;
-  /* Key property - equal heights */
-
-}
-#about .content .colonnade .lt_column,
-#labs .content .colonnade .lt_column {
-  width: 65%;
-}
-#about .content .colonnade .rt_column {
-  margin-top: 2.25em;
-}
-#about .content .colonnade .rt_column,
-#work .content .colonnade .rt_column,
-#labs .content .colonnade .rt_column {
-  width: 29%;
-  padding-left: 3em;
-  padding-top: 2em;
-}
-#about .content section.colonnade .lt_column,
-#labs .content section.colonnade .lt_column,
-#about .content section.colonnade .rt_column,
-#work .content section.colonnade .rt_column,
-#labs .content section.colonnade .rt_column {
-  width: 50%;
-  margin: 0;
-  padding: 0;
-}
-.colonnade .rt_column h3 {
-  font-size: 120%;
-}
-.colonnade .rt_column h3:first-child {
-  margin-top: 0;
-}
-#labs .colonnade .rt_column h3 {
-  margin-top: 2em;
-}
-.colonnade .rt_column dl {
-  overflow: hidden;
-  /* Need this overflow because the fx.js script is overriding a dynamic overflow hidden addition */
-
-}
-/***************/
-/** SLATE **/
-/***************/
-.slate {
-  margin: 1em 0;
-  padding: 0 1em 1em 1em;
-  border: 1px solid #432;
-  border-top-color: #e9e9e9;
-  border-left-color: #e9e9e9;
-  /* Background Opacity - Child elements aren't get included */
-
-  background: #ffffff;
-  /* Fallback for web browsers that doesn't support RGBa */
-
-  background: rgba(255, 255, 255, 0.3);
-  /* Box Shadow */
-
-  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-}
-.icons .slate p,
-.logos .slate p {
-  box-sizing: border-box;
-  float: left;
-  width: auto;
-  margin: .5em;
-  padding: 1em;
-}
-.logos .slate p {
-  text-align: center;
-  border: 1px solid #432;
-  background: rgba(255, 255, 255, 0.8);
-  width: 45%;
-}
-.slate ul {
-  margin: 1.5em 1.5em 0 1.5em;
-  width: 75%;
-}
-.slate li strong {
-  font-size: 100%;
-}
-.slate li {
-  font-size: 90%;
-  margin: 0;
-  padding: 0 0 1.5em 0;
+.simple_overlay .lt_column #dynamic img {
+  width: 500px;
+  cursor: pointer;
 }
 #work h4 {
   font-size: 115%;
@@ -1037,13 +990,14 @@ span.attention {
   box-sizing: border-box;
   background: none;
   margin: 0 auto;
-  margin-top: 75px;
+  margin-top: 10%;
   padding: 4em 1em;
   width: 75%;
+  text-align: center;
 }
 .jumbotron .services {
-  width: 100%;
-  margin: 0;
+  width: 675px;
+  margin: 0 auto;
   padding: 0;
   overflow: hidden;
 }
@@ -1104,7 +1058,7 @@ span.attention {
 }
 #hmpg .content {
   margin-top: 0;
-  width: 650px;
+  width: 75%;
   min-width: 650px;
   text-align: justify;
 }
@@ -1112,137 +1066,101 @@ span.attention {
   margin-top: 0;
 }
 /******** Contact Form *********/
-fieldset {
-  margin: 1em;
+form fieldset {
   padding: 1em;
   border: 1px solid #e5e5e5;
 }
-legend {
+form fieldset legend {
   text-transform: uppercase;
   margin-left: 1em;
   letter-spacing: .2em;
+  font-size: 100%;
+  width: auto;
+  margin-bottom: 0;
+  line-height: 16px;
+  border: none;
 }
-label {
-  display: inline-block;
+form fieldset label {
   font-weight: bold;
-  text-align: right;
+}
+form fieldset span.required {
+  color: #903;
   margin-right: 3px;
-  width: 30%;
 }
-.lbl_wheight label {
-  display: block;
-  float: left;
-  clear: left;
+form fieldset p {
+  margin: 0;
+  padding-bottom: 15px;
 }
-input,
-select,
-textarea {
-  width: 65%;
-  border-left: 1px solid #fff;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #666;
-  border-right: 1px solid #666;
+form fieldset p textarea,
+form fieldset p input[type="text"],
+form fieldset p input[type="password"],
+form fieldset p input[type="datetime"],
+form fieldset p input[type="datetime-local"],
+form fieldset p input[type="date"],
+form fieldset p input[type="month"],
+form fieldset p input[type="time"],
+form fieldset p input[type="week"],
+form fieldset p input[type="number"],
+form fieldset p input[type="email"],
+form fieldset p input[type="url"],
+form fieldset p input[type="search"],
+form fieldset p input[type="tel"],
+form fieldset p input[type="color"],
+form fieldset p .uneditable-input {
+  width: 97%;
+  border-left: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #a6a6a6;
+  border-right: 1px solid #a6a6a6;
+  margin: 0;
   padding: 3px;
   background-color: #EDECED;
 }
-.focus_field {
+form fieldset p input[type="text"].error {
+  border-color: #ba2b36;
+  background: #f8dbdb url(../img/bg_focus_field_error.png) repeat-x left top;
+}
+form fieldset p textarea.error {
+  border-color: #ba2b36;
+  background: #f8dbdb url(../img/bg_focus_field_error.png) repeat-x left top;
+}
+form fieldset p span.error {
+  display: none;
+  color: #ba2b36;
+  text-align: right;
+}
+form fieldset p .focus_field {
   background: #ffffff url(../img/bg_focus_field.png) repeat-x left top;
+}
+form fieldset input + span {
+  font-size: 95%;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+form fieldset .instructions {
+  font-size: 85%;
+  margin: .5em 0 1.5em 0;
 }
 .disclaimer {
   color: #666;
   font-size: 85%;
   margin-top: 10px;
 }
-input.error {
-  border-color: #903;
-  background: #f8dbdb url(../img/bg_focus_field_error.png) repeat-x left top;
-}
-textarea.error {
-  border-color: #903;
-  background: #f8dbdb url(../img/bg_focus_field_error.png) repeat-x left top;
-}
-#contact p input + span {
-  margin-left: 3px;
-  font-size: 10px;
-  font-style: italic;
-}
-span.error {
-  display: block;
-  color: #903;
-  font-weight: bold;
-  text-align: right;
-}
-#error {
-  margin-bottom: 20px;
-  border: 1px solid #82602c;
-}
-#error ul {
-  list-style: square;
-  padding: 5px;
-  font-size: 11px;
-}
-#error ul li {
-  list-style-position: inside;
-  line-height: 1.6em;
-}
-#error ul li strong {
-  color: #903;
-}
-span.required {
-  color: #903;
-  margin-right: 3px;
-}
-/*
-#send {
-	margin-left: 25%;
-	cursor: pointer;
-	width: 80px;
-	height: 35px;
-	border: none;
-	background: url(../img/btn_send.png) no-repeat left top; 
-}
-#send span {
-	display: none;
-}
-#send:hover {
-	background: url(../img/btn_send_hover.png) no-repeat left top; 
-}*/
-fieldset legend + p {
-  /* to cancel margins on the required field message*/
-
-  margin: 0 0 .5em 30%;
-  color: #666;
-  font-size: 85%;
-}
-fieldset p:last-child {
-  /* to raise the #send button up*/
-
-  margin-top: -1.75em;
+#nameInfo,
+#emailInfo,
+#messageInfo {
+  display: none;
+  width: 100%;
+  text-align: left;
 }
 /* CONTACT RESULTS */
 #contactResults h5 {
   margin: 5px 0 0 0 !important;
 }
-#contactResults label {
+#contactResults #contactResults label {
   display: inline;
   font-weight: bold;
   margin-right: 5px;
-}
-#nameInfo,
-#emailInfo,
-messageInfo {
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-.form_warning {
-  border: 1px solid #999;
-  margin-bottom: 2em;
-  padding: 1em;
-  width: 96%;
-  background-color: #FEFFF6;
-  font-size: .75em;
-  color: #903;
 }
 footer {
   position: fixed;

@@ -69,7 +69,7 @@
         <h6>Life Drawing</h6>
         <img src="/work/portfolio/art/illustration/life/tanman.gif" alt="illustration" rel="#viewer" />
         <h6>Life Drawing</h6>
-        <img src="/work/portfolio/art/illustration/life/nudesitting_100px.gif" alt="illustration" rel="#viewer" />
+        <img src="/work/portfolio/art/illustration/life/nudesitting.gif" alt="illustration" rel="#viewer" />
         <h6>Life Drawing</h6>
         <img src="/work/portfolio/art/illustration/life/nudelaydown.gif" alt="illustration" rel="#viewer" />
         <h6>Life Drawing</h6>

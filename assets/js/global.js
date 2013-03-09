@@ -1,16 +1,4 @@
 $(document).ready(function() {
-
-	$("a.overlay").overlay({
-		onBeforeLoad: function() {
-			var wrap = this.getOverlay().find(".contentWrap");
-			wrap.load(this.getTrigger().attr("href"));
-			$('#overlay-background').css('opacity', '0.5').fadeIn('fast');
-		},
-		onBeforeClose: function() {
-			$('#overlay-background').fadeOut('fast');
-		}
-	});
-	
 	
 	// Social Bar Hover Effect
 	$('#social-bar a').hover(function() {

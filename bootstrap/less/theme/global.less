@@ -11,65 +11,56 @@ p {
 	margin-bottom: 1em;
 	line-height: 1.25em;
 }
-
-.slate hr {
-	margin: 3em 0;
-}
-
 dl {
-	padding:0;
+	padding: 0;
+	padding-left: 5px;
+	dt {
+		font-weight: bold;
+		margin: 1.25em 0 .75em 0;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	dd {
+		line-height: 24px;
+		a {
+			line-height: 1.25em;
+		}
+		.selected {
+			font-weight: bold;
+			margin-left: -1.25em;
+			padding-left: 1.25em;
+			background: url(../img/sprite.png) no-repeat -52px -131px;
+		}
+	}
+	.reference {
+		margin-top: 1em;
+		padding-left: 0;
+		dt {
+			font-weight: normal;
+			margin: 1em 0 0.25em;
+		}
+		 dd {
+			padding-left: 0;
+		}
+	}
 }
-dl dt {
-	font-weight: bold;
-	margin: 1.25em 0 .75em 0;
-}
-dl dd {
-	margin-bottom:.5em;
-	padding-left: 1em;
-}
-dl dd a.selected {
-	font-weight: bold;
-	margin-left: -1.25em;
-	padding-left: 1.25em;
-	background: url(../img/sprite.png) no-repeat -52px -131px;
-}
-dl dd a {
-	line-height: 1.25em;
-}
-dl dt:first-child {
-	margin-top: 0;
-}
-dl.reference {
-	margin-top: 1em;
-}
-dl.reference dt {
-	font-weight: normal;
-	margin: 1em 0 0.25em;
-}
-dl.reference dd {
-	padding-left: 0;
-}
-
 ul {
 	margin-left: 2em;
 	padding:0;
+	li {
+		margin-bottom:.75em;
+		margin:0 1.25em;
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+		a {
+			line-height: 1.25em;
+		}
+	}
+	ul {
+		list-style: square;
+		margin-bottom: 1.5em;
+	}
 }
-ul li {
-	margin-bottom:.75em;
-}
-ul li a {
-	line-height: 1.25em;
-}
-
-ul {
-	list-style: square;
-	margin-bottom: 1.5em;
-}
-li {
-	margin:0 1.25em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
-}
-
 .button {
 	font-size: .85em;
 	color: #043F90;
@@ -82,29 +73,28 @@ li {
 	padding: 8px 0 15px 15px;
 	white-space: nowrap;
 	background: url(../img/btn_left.png) no-repeat left center;
-}
-.button span {
-	height: 35px;
-	line-height: 35px;
-	margin: 0;
-	padding: 8px 15px 15px 0;
-	background: url(../img/btn_right.png) no-repeat right center;
-}
-.button em {
-	background-position: left center;
-	background-repeat: no-repeat;
-	font-style: normal;
-	font-weight: normal;
-	margin-right: 0;
-	padding: 3px 6px;
-}
-
-.button:hover {
-	text-decoration: none;
-	background: url(../img/btn_left_hvr.png) no-repeat left center;
-}
-.button:hover span {
-	background: url(../img/btn_right_hvr.png) no-repeat right center;
+	span {
+		height: 35px;
+		line-height: 35px;
+		margin: 0;
+		padding: 8px 15px 15px 0;
+		background: url(../img/btn_right.png) no-repeat right center;
+	}
+	em {
+		background-position: left center;
+		background-repeat: no-repeat;
+		font-style: normal;
+		font-weight: normal;
+		margin-right: 0;
+		padding: 3px 6px;
+	}
+	&:hover {
+		text-decoration: none;
+		background: url(../img/btn_left_hvr.png) no-repeat left center;
+		span {
+			background: url(../img/btn_right_hvr.png) no-repeat right center;
+		}
+	}
 }
 
 /* Social Bar */

@@ -47,31 +47,6 @@ header {
 				color: #0F20BC;
 				text-decoration: none;
 			}
-
-			/* WORK NAV */
-			.subnav ul {
-				margin:0 0 1em 0;
-				padding:0;
-			}
-			.subnav li {
-				display: inline;
-				margin: 0;
-				padding: 0 1.5em;
-			}
-			.subnav li:first-child {
-				padding-left: 0;
-				border-left: none;
-			}
-			.subnav li,
-			.subnav li a {
-				color: #333;
-				font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
-				text-decoration: none;
-			}
-			.subnav a:hover,
-			.subnav li#selected a {
-				color: #0F20BC;
-			}
 		}
 	}
 }
@@ -86,95 +61,70 @@ header {
 }
 
 
+/* WORK SubNav */
+.subnav {
+	ul {
+		margin:0 0 1em 0;
+		padding:0;
+	}
+	li {
+		display: inline;
+		margin: 0;
+		padding: 0 1.5em;
+		color: #333;
+		font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
+		text-decoration: none;
+		a {
+			color: #333;
+			font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
+			text-decoration: none;
+		}
+		&:first-child {
+			padding-left: 0;
+			border-left: none;
+		}
+	}
+}
+.subnav a:hover,
+.subnav li#selected a {
+	color: #0F20BC;
+}
+
+
 /* Tabs -------------------------------------------------------------------------------------------------------- */
-   
-.panes div {
-	display:none;		
-	margin-top: 1em;
-	padding:15px 10px;
-	border-top:0;
+.nav-pills {
+	margin: 0 1px 20px 1px;
+	background-image: -webkit-radial-gradient(50% 50%, farthest-corner, lighten(@gray, 20%), @grayLightest);
+	background-image: -moz-radial-gradient(50% 50%, farthest-corner, lighten(@gray, 20%), @grayLightest);
+	background-image: -o-radial-gradient(50% 50%, farthest-corner, lighten(@gray, 20%), @grayLightest);
+	background-image: -ms-radial-gradient(50% 50%, farthest-corner, lighten(@gray, 20%), @grayLightest);
+	background-image: radial-gradient(50% 50%, farthest-corner, lighten(@gray, 20%), @grayLightest);
+	border: 1px solid @white;
+	outline: 1px solid @grayDarkest;
+	box-shadow: inset 0 0 13px @gray;
 }
-
-/* root element for tabs  */
-.tabulous ul.tabs { 
-	list-style:none; 
-	margin:0 !important; 
-	padding:0;	
-	height:30px;
-}
-
-/* single tab */
-.tabulous ul.tabs li { 
-	float:left;	 
-	text-indent:0;
-	padding:0;
-	margin: 0 0 0 -1px ;
-	list-style-image:none !important; 
-}
-.tabulous ul.tabs li:first-child {
+.nav-pills > li {
+	text-align: center;
+	width: 115px;
 	margin: 0;
+	padding: 0;
+	border-right: 1px solid @gray;
+	&:last-child {
+		border-right: none;
+	}
 }
-.tabulous ul.tabs li a:last-child {
-	border-right: 1px solid #333;
+.nav-pills > li > a {
+	font-size: 85%;
+	padding: 0;
+	border-radius: 0;
 }
-
-/* link inside the tab. uses a background image */
-.tabulous ul.tabs a { 
-	position:relative;
-	top:1px;
-	display:block;
-	height: 30px;  
-	line-height:30px;
-	width: 120px;
-	font-size:11px;
-	text-align:center;	
-	text-decoration:none;
-	padding:0;
-	margin:0;	
-	background: url(http://www.pencilmedia.com/global/img/bg_tabs.png) no-repeat -420px 0;
-	color: #333;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+	color: @purple;
+	background-color: @grayLightest;
 }
-
-.tabulous ul.tabs a:active {
-	outline:none;		
-}
-
-/* when mouse enters the tab move the background image */
-.tabulous ul.tabs a:hover {
-	background-position: -420px -31px;	
-	color: #0F20BC;
-}
-
-/* active tab uses a class name "current". its highlight is also done by moving the background image. */
-.tabulous ul.tabs a.current, .tabulous ul.tabs a.current:hover, .tabulous ul.tabs li.current a {
-	background-position: -420px -62px;		
-	cursor:default !important;
-	color: #0F20BC;
-}
-
-/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
-
-
-/* width 1 */
-.tabulous ul.tabs a.s 			{ background-position: -553px 0; width:81px; }
-.tabulous ul.tabs a.s:hover 	{ background-position: -553px -31px; }
-.tabulous ul.tabs a.s.current  { background-position: -553px -62px; }
-
-/* width 2 */
-.tabulous ul.tabs a.l 			{ background-position: -248px -0px; width:174px; }
-.tabulous ul.tabs a.l:hover 	{ background-position: -248px -31px; }
-.tabulous ul.tabs a.l.current  { background-position: -248px -62px; }
-
-
-/* width 3 */
-.tabulous ul.tabs a.xl 			{ background-position: 0 -0px; width:248px; }
-.tabulous ul.tabs a.xl:hover 	{ background-position: 0 -31px; }
-.tabulous ul.tabs a.xl.current { background-position: 0 -62px; }
-
-
-/* initially all panes are hidden */ 
-.panes .pane {
-	display:none;		
+.nav > li > a:hover, .nav > li > a:focus {
+text-decoration: none;
+border: 1px solid transparent;
+background-color: @grayLightest;
 }
 

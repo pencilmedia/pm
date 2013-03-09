@@ -1,63 +1,149 @@
-<?php 
-    include("assets/inc/config.inc");
-    $thisPage="hmpg"; 
-?>
+
 <!DOCTYPE html>
-<html>
-<head>
-	<title><?php echo homeTitle ?></title>
-	<?php include("assets/inc/head.inc.php"); ?>    
-</head>
-<body id="hmpg">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <?php include("assets/inc/nav/nav.inc.php"); ?>
-    <?php include("assets/inc/socialbar.inc.php"); ?>
- 
-    <div class="container">
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <ul class="services">
-            <li><a href="<? echo pathToWeb ?>"><img src="assets/img/home_uxdesign.png" alt="Web Development" />Web</a></li>
-            <li><a href="<? echo pathToIcons ?>"><img src="assets/img/home_icondesign.png" alt="Visual Design" />Visual</a></li>
-            <li><a href="<? echo pathToMobile ?>"><img src="assets/img/home_mobiledesign.png" alt="Mobile Development" />Mobile</a></li>
-        </ul>
-      </div>
-     <div class="content row-fluid marketing">
-        <div class="span12">
-        <h2><?php echo homeHead ?></h2>
-        <p>Pencil Media creates websites, user interfaces, branding and icons. I have twelve years of digital expertise on mediums, including web, desktop, and mobile. I offer web host setup, email setup, mockup creation, icon and graphic design, prototyping, web design, cross-browser testing, and search engine optimization (SEO) across multiple platforms. <a href="/about/" title="Go to about Pencil Media">Learn more</a>.</p>
+    <!-- Le styles -->
+    <link href="bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/bootstrap/docs/assets/css/bootstrap-responsive.css" rel="stylesheet">
 
-        <h2>My To Do's</h2>
-        <p>Moving website to GIT repository and using Bootstrap framework with SCSS.
-        <a href="https://github.com/pencilmedia/pm">PM GitHub Repo</a>
-        </p>
-        <ol>
-            <li>Work Photo Overlay Viewer - Currently, only working in illustrations</li>
-            <li>Convert layout to bootstrap compliant</li>
-            <li>Convert "less/theme" CSS into LESS format</li>
-            <li>Add web font icons where necessary</li>
-            <li>Clean up JavaScripts</li>
-            <li>&nbsp;</li>
-            <li>Should I use Beanstalk to deploy automatically to FTP?</li>
-        </ol>
-        <h4>Beanstalk Links</h4>
-        <p><a href="http://css-tricks.com/video-screencasts/109-getting-off-ftp-and-onto-git-deployment-with-beanstalk/">Chris Coyier Beanstalk Tut</a></p>
-        <p><a href="http://peteschuster.com/2012/12/up-and-running-with-beanstalk-app/">View Benefits of Beanstalk</a></p>
-        <p><a href="http://beanstalkapp.com/pricing">View Beanstalk App</a></p>
-        <p><a href="https://codeplane.com/">View Beanstalk Competitor</a></p>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="bootstrap/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="bootstrap/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="bootstrap/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="bootstrap/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="bootstrap/ico/favicon.png">
+    <script src="/bootstrap/docs/assets/js/jquery.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-tab.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-transition.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-alert.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-modal.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-popover.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-button.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-collapse.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-carousel.js"></script>
+    <script src="/bootstrap/docs/assets/js/bootstrap-typeahead.js"></script>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Project name</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="Email">
+              <input class="span2" type="password" placeholder="Password">
+              <button type="submit" class="btn">Sign in</button>
+            </form>
+          </div><!--/.nav-collapse -->
         </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+
+        <ul class="nav nav-tabs" id="myTab">
+  <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+  <li><a href="#profile" data-toggle="tab">Profile</a></li>
+  <li><a href="#messages" data-toggle="tab">Messages</a></li>
+  <li><a href="#settings" data-toggle="tab">Settings</a></li>
+</ul>
+ 
+<div class="tab-content">
+  <div class="tab-pane active" id="home">..jjj.</div>
+  <div class="tab-pane" id="profile">..jjjlkl.</div>
+  <div class="tab-pane" id="messages">..uuuu.</div>
+  <div class="tab-pane" id="settings">...</div>
+</div>
+ 
+<script>
+  $(function () {
+    //$('#myTab a:last').tab('show');
+  })
+</script>
+
+
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2013</p>
+      </footer>
+
     </div> <!-- /container -->
 
-<?php include("assets/inc/foot.inc.php"); ?>
-</body>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+  </body>
 </html>
-
-
-
-
-
-   
-
-
-
-
