@@ -100,29 +100,7 @@
   </div>
 </div>
 
-<script>
-$(function() {
-    // if the function argument is given to overlay,
-    // it is assumed to be the onBeforeLoad event listener
-    $(".lt_column #dynamic img").click(function() {
-        imgHolder = $('#imgholder');
-        replaceSrc = $(this).attr("src");
-        imgHolder.attr("src", replaceSrc);
-        //alert( $(this).attr("src") )
-        var detailsTitle = $(this).prev().text();
-        var detailsDesc = $(this).attr("alt");
-        $('.details h3').text(detailsTitle);
-        $('.details p').text(detailsDesc);
-    });
-            
-    $(".lt_column #dynamic img[rel]").overlay({
-        top:80,
-        onLoad: function() {
-            var fullImg = $('.simple_overlay img');
-            var fullImgHeight = fullImg.height();
-            $('.details').height(fullImgHeight);
-        }
-    });
-});
-</script>
+    <script>
+        pm.overlay();
+    </script>
 

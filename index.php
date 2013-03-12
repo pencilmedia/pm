@@ -55,7 +55,6 @@
                     <li>
                         Work Photo Overlay Viewer - Currently, only working in illustrations
                     </li>
-                    <li>Convert layout to bootstrap compliant</li>
                     <li>Convert "less/theme" CSS into LESS format</li>
                     <li>
                         Need to work on Responsive Design (Nav, Footer, Homepage, etc)

@@ -9,14 +9,6 @@
 <head>
 <title><?php echo workTitle ?></title>
 <?php include("../assets/inc/head.inc.php"); ?>
-<style>
-    #loading {
-    	background-image: url("assets/img/load.gif") no-repeat left top;
-    }
-    #dynamic {
-    	display:none;
-    }   
-</style>
 </head>
 <body id="work">
 <?php include("../assets/inc/nav/nav.inc.php"); ?>
