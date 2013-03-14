@@ -46,7 +46,7 @@
                     <a href="/about/" title="Go to about Pencil Media">Learn more</a>.
                 </p>
 
- <!-- TODO:
+ 
                 <h2>My To Do's</h2>
                 <p>
                     Moving website to GIT repository and using Bootstrap framework with SCSS.
@@ -54,31 +54,11 @@
                 </p>
                 <ol style="color: darkred">
                     <li>
-                        Work Photo Overlay Viewer - Currently, only working in illustrations
-                    </li>
-                    <li>Convert "less/theme" CSS into LESS format</li>
-                    <li>
                         Need to work on Responsive Design (Nav, Footer, Homepage, etc)
                     </li>
-                    <li>Add web font icons where necessary</li>
                     <li>Clean up JavaScripts</li>
-                    <li>&nbsp;</li>
-                    <li>Should I use Beanstalk to deploy automatically to FTP?</li>
                 </ol>
-                <h4>Beanstalk Links</h4>
-                <p>
-                    <a href="http://css-tricks.com/video-screencasts/109-getting-off-ftp-and-onto-git-deployment-with-beanstalk/">Chris Coyier Beanstalk Tut</a>
-                </p>
-                <p>
-                    <a href="http://peteschuster.com/2012/12/up-and-running-with-beanstalk-app/">View Benefits of Beanstalk</a>
-                </p>
-                <p>
-                    <a href="http://beanstalkapp.com/pricing">View Beanstalk App</a>
-                </p>
-                <p>
-                    <a href="https://codeplane.com/">View Beanstalk Competitor</a>
-                </p>
--->
+
 
             </div>
         </article>
