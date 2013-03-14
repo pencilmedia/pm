@@ -45,7 +45,8 @@
                     Pencil Media creates websites, user interfaces, branding and icons. I have twelve years of digital expertise on mediums, including web, desktop, and mobile. I offer web host setup, email setup, mockup creation, icon and graphic design, prototyping, web design, cross-browser testing, and search engine optimization (SEO) across multiple platforms.
                     <a href="/about/" title="Go to about Pencil Media">Learn more</a>.
                 </p>
- 
+
+ <!-- TODO:
                 <h2>My To Do's</h2>
                 <p>
                     Moving website to GIT repository and using Bootstrap framework with SCSS.
@@ -77,6 +78,8 @@
                 <p>
                     <a href="https://codeplane.com/">View Beanstalk Competitor</a>
                 </p>
+-->
+
             </div>
         </article>
         <!-- /container -->

@@ -6,41 +6,40 @@ footer {
 	width: 100%;
 	padding: 0;
 	background: url(../img/bg_foot_gradient.png) repeat-x left bottom;
-}
-#footbar {
-	z-index: 95;
-	height: 40px;
-	width: 100%;
 	background: url(../img/bg_footbar.png) repeat-x left bottom;
-}
-footer ul {
-	position: fixed;
-	bottom: 5px;
-	z-index: 99;
-	height: 25px;
-	background: url(../img/bg_footer.png) no-repeat bottom center;
-	text-align: center;
-	width: 100%;
-	margin: 0;
-	padding: 5px 0;
-}
-footer ul li {
-	color: #bbb;
-	font-size: .75em;
-	display: inline-block;
-	width: auto;
-	margin: 0;
-	padding: 15px 0 0 0;
-	text-shadow: #fff 1px 1px 1px;
-}
-footer ul li a {
-	color: #bbb;
-	text-decoration: none;
-	padding: 0 10px 0 15px;
-}
-footer ul li a:hover {
-	color: #0F20BC;
-	text-decoration: none;
+	ul {
+		position: fixed;
+		bottom: 5px;
+		z-index: 99;
+		height: 25px;
+		background: url(../img/bg_footer.png) no-repeat bottom center;
+		text-align: center;
+		width: 100%;
+		margin: 0;
+		padding: 5px 0 0 0;
+		li {
+			color: @gray;
+			font-size: .8em;
+			display: inline-block;
+			width: auto;
+			margin: 0;
+			padding: 0;
+			text-shadow: #fff 1px 1px 1px;
+			&:first-child {
+				margin-right: 5px;
+			}
+			a {
+				color: @gray;
+				text-decoration: none;
+				padding: 0 0 0 10px;
+				border-left: 1px solid @grayLighter;
+				&:hover {
+					color: #0F20BC;
+					text-decoration: none;
+				}
+			}
+		}
+	}
 }
 
 

@@ -50,7 +50,7 @@ define("labsProj", "Projects");
 //PM Labs Subnav Menu
 define("labsName", "PM Projects");
 define("allProjSubNav", "All Projects");
-define("gitSubNav", "Repositories");
+define("gitSubNav", "GIT Repositories");
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////

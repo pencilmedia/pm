@@ -1,0 +1,182 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/pro_dropline.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+.nav {
+height:36px; 
+background: url(http://www.personalautoshopper.org/global/media/img/top-nav-bg.gif); 
+position:relative; 
+font-family:verdana, sans-serif; 
+font-size:11px; 
+width:752px; 
+z-index:500;
+margin-left:5px;
+margin-right:5px;
+}
+.nav a,a:visited,a:hover,a:selected
+{
+font-family:verdana;
+font-size:11px;
+font-weight:normal;}
+
+.nav .table {
+display:table; 
+margin:0 auto;
+}
+
+.nav .select,
+.nav .current {
+margin:0; 
+padding:0; 
+list-style:none;
+display: table-cell;
+*display:inline; 
+white-space:nowrap;
+height:36px;
+}
+
+.nav li {
+margin:0; 
+padding:0; 
+height:auto; 
+float:left;
+
+}
+
+.nav .select a {
+display:block; 
+float:left; 
+padding:0 27px 0 27px; text-decoration:none; 
+line-height:31px; 
+white-space:nowrap; 
+color:#fff;
+margin-top:5px;
+height:36px;
+padding-bottom:-5px;
+background:url(http://www.personalautoshopper.org/global/media/img/right-border.gif) no-repeat right;
+}
+
+.nav .select li.last a {
+background: none;
+}
+
+.nav .current a {
+display:block; 
+height:36px; 
+float:left; 
+background: url(http://www.personalautoshopper.org/global/media/img/top-nav-select-bg.jpg); 
+padding:0 27px 0 27px; text-decoration:none; 
+line-height:40px; 
+white-space:nowrap; 
+color:#0D1A5E;
+border-bottom: 1px solid #999;
+}
+
+
+.nav .current a b {
+display:block; 
+padding:0 27px 0 27px; background:url(http://www.personalautoshopper.org/global/media/img/top-nav-select-bg.jpg) right top;
+height:36px;
+border-bottom: 1px solid #999;}
+
+.nav .select a:hover, 
+.nav .select li:hover a {
+background: url(http://www.personalautoshopper.org/global/media/img/top-nav-select-bg.jpg) repeat-x; 
+padding:0 27px 0 27px; cursor:pointer; 
+color:#fff;
+	text-decoration:none; 
+	height:36px;
+	white-space:nowrap; 
+	color:#0D1A5E;
+	line-height:40px;
+	margin-top:0px;
+	border-bottom: 1px solid #999;
+}
+
+.nav .select a:hover b, 
+.nav .select li:hover a b {
+display:block; 
+float:left; 
+padding:0 27px 0 27px; background:url(http://www.personalautoshopper.org/global/media/img/top-nav-select-bg.jpg) right top; 
+cursor:pointer;
+	margin-top:0px;
+	border-bottom: 1px solid #999;
+}
+
+.nav .select_sub {
+display:none;
+}
+
+/* IE6 only */
+.nav table {
+border-collapse:collapse; 
+margin:-1px; 
+font-size:1em; 
+width:0; 
+height:0;
+}
+
+.nav .sub {
+display:table; 
+margin:0 auto; 
+padding:0; 
+list-style:none;
+}
+
+
+.nav .sub_active .current_sub a, 
+.nav .sub_active a:hover {
+background:transparent; 
+color:#f00;
+}
+
+.nav .select :hover .select_sub, 
+.nav .current .show {
+display:block; 
+position:absolute; 
+width:950px; 
+top:36px; 
+background:url(http://www.personalautoshopper.org/global/media/img/back-1.jpg) repeat-x; 
+padding:0; 
+z-index:100; 
+left:0; 
+text-align:left;
+height:36px;
+margin:0px;
+}
+
+.nav .current .show {
+z-index:10;
+}
+
+.nav .select :hover .sub li a, 
+.nav .current .show .sub li a {
+display:block; 
+float:left; 
+background:transparent; 
+padding:0 27px 0 27px; margin:0; 
+white-space:nowrap; 
+border:0; 
+color:#0D1A5E;
+line-height:36px;
+height:36px;
+}
+
+.nav .current .sub li.sub_show a {
+color:#0D1A5E;
+cursor:default; 
+background:url(http://www.personalautoshopper.org/global/media/img/back-1.jpg)  repeat-x;
+}
+
+.nav .select :hover .sub li a:hover, 
+.nav .current .sub li a:hover {
+visibility:visible; 
+color:#0D1A5E;
+background:url(http://www.personalautoshopper.org/global/media/img/back-1.jpg)  repeat-x;
+}

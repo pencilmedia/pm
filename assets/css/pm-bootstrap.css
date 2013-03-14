@@ -152,46 +152,45 @@ header {
   text-align: center;
   width: 100%;
 }
-header .navbar-inner {
+header .navbar-inner .container {
+  width: 100%;
+  min-width: 650px;
   /* MAIN NAV */
 
 }
-header .navbar-inner h1 {
+header .navbar-inner .container h1 {
   margin: 0;
   padding: 0;
   height: 100px;
   background: url(../img/bg_logo.png) no-repeat center center;
 }
-header .navbar-inner h1 img {
+header .navbar-inner .container h1 img {
   margin: 10px auto;
 }
-header .navbar-inner nav {
-  position: absolute;
-  right: 0;
-  top: 35px;
+header .navbar-inner .container nav {
+  margin-top: -70px;
   width: 325px;
-  height: 30px;
 }
-header .navbar-inner nav ul {
+header .navbar-inner .container nav ul {
   margin: 0;
   padding: 0;
 }
-header .navbar-inner nav li {
+header .navbar-inner .container nav li {
   display: inline;
   margin: 0;
   padding: 0 2em;
 }
-header .navbar-inner nav li:first-child {
+header .navbar-inner .container nav li:first-child {
   border-left: none;
 }
-header .navbar-inner nav li,
-header .navbar-inner nav li a {
+header .navbar-inner .container nav li,
+header .navbar-inner .container nav li a {
   font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
   color: #333;
   text-decoration: none;
 }
-header .navbar-inner nav a:hover,
-header .navbar-inner nav li#selected a {
+header .navbar-inner .container nav a:hover,
+header .navbar-inner .container nav li#selected a {
   color: #0F20BC;
   text-decoration: none;
 }
@@ -897,8 +896,8 @@ span.attention {
 }
 #hmpg .content {
   margin-top: 0;
-  width: 75%;
-  min-width: 650px;
+  width: 625px;
+  min-width: 600px;
   text-align: justify;
 }
 #hmpg .content h2 {
@@ -1009,11 +1008,6 @@ footer {
   width: 100%;
   padding: 0;
   background: url(../img/bg_foot_gradient.png) repeat-x left bottom;
-}
-#footbar {
-  z-index: 95;
-  height: 40px;
-  width: 100%;
   background: url(../img/bg_footbar.png) repeat-x left bottom;
 }
 footer ul {
@@ -1025,21 +1019,25 @@ footer ul {
   text-align: center;
   width: 100%;
   margin: 0;
-  padding: 5px 0;
+  padding: 5px 0 0 0;
 }
 footer ul li {
-  color: #bbb;
-  font-size: .75em;
+  color: #999999;
+  font-size: .8em;
   display: inline-block;
   width: auto;
   margin: 0;
-  padding: 15px 0 0 0;
+  padding: 0;
   text-shadow: #fff 1px 1px 1px;
 }
+footer ul li:first-child {
+  margin-right: 5px;
+}
 footer ul li a {
-  color: #bbb;
+  color: #999999;
   text-decoration: none;
-  padding: 0 10px 0 15px;
+  padding: 0 0 0 10px;
+  border-left: 1px solid #bfbfbf;
 }
 footer ul li a:hover {
   color: #0F20BC;
@@ -1071,7 +1069,7 @@ footer ul li a:hover {
   left: .75em;
   z-index: 9999;
   display: block;
-  width: 50%;
+  width: 30%;
   overflow: hidden;
 }
 #clearTheme span {

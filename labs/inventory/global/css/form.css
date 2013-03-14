@@ -1,0 +1,97 @@
+
+/* ----- FORMS ----------*/
+#form-content {
+	float: left;
+	width: 525px;
+	margin: 0;
+	padding: 15px 0 0 15px;
+	color: #000;
+	overflow: auto; /*stretches div container around floated elements*/
+}
+.sectionbg {
+	background: url(http://www.personalautoshopper.org/global/media/img/inquiry/formbg_bottom.gif) no-repeat bottom left;
+}
+#form-content table {
+	width: 525px;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+#form-content p {
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+fieldset {
+	margin-bottom: 15px;
+	border: 0;
+}
+legend {
+	display: none;
+}
+label {
+	display: block;
+	clear: both;
+	color: #000;
+	font-size: 90%;
+}
+label.regular {
+	display: inline;
+}
+.noBG {
+	background: none;
+	border: 0;
+}
+
+fieldset input, select, textarea {
+	width: auto;
+	font-size: 12px;
+	border: 1px solid #000;
+	margin-bottom: 5px;
+}
+input.inputButton {
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 10px;
+	padding: 2px;
+	color: #003876;
+	font-size: 115%;
+	font-weight: bold;
+	background-color: #ccc;
+	border: 1px solid #666;
+	cursor: pointer;
+}
+
+dl.form_results {
+	display: block;
+}
+dl.form_results dd {
+	margin: 0;
+	padding: 0;
+}
+
+dl.form_results dt {
+	font-weight: bold;
+}
+
+div.options {
+	display: block;
+	float: left;
+	width: 50%;
+	*width: 45%;
+	margin-bottom: 20px;
+	padding: 0;
+	overflow: auto;
+}
+div.options label {
+	display: block;
+	clear: right;
+	line-height: 1.75em;
+	*line-height: 2em;
+}
+div.options input {
+	float: left;
+	clear: both;
+	margin-bottom: 0 !important;
+}

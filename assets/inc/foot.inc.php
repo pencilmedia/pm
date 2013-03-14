@@ -16,16 +16,12 @@
         <li><?php echo copyright ?> </li>
         <li><a <?php echo 'href="' . $ROOT . 'ux/"' ?>><?php echo uxHead ?></a></li>
     </ul>
-    <div id="footbar">&nbsp;</div>
 </footer>
 
 <!-- CDN Scripts-->
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script>window.jQuery || document.write('<script src="extras/h5bp/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
-
-
-
 
 <?php
     // Bootstrap Component Scripts
