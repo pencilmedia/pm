@@ -41,7 +41,7 @@
                     <dt><h3>PM Properties</h3></dt>
                     <dd><p>Other Pencil Media properties.</p></dd>
                     <dd><a href="https://github.com/pencilmedia">Github</a>: Pencil Media Repositories</dd>
-                    <dd><a href="<?php echo pathToLabs ?>">Pencil Media Labs</a>: Experiments</dd>
+                    <dd><a href="http://labs.pencilmedia.com">Pencil Media Labs</a>: Experiments</dd>
                     <dd><a href="http://www.screenchef.com">screenchef.com</a>: Personal Portfolio</dd>
                     <dd><a href="http://www.writeyourway.org">Write Your Way</a>: Graphologist</dd>
                     <dd><a href="http://www.proposedevents.com">Proposed Events</a>: Event Planning</dd>

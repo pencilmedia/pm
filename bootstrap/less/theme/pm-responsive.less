@@ -1,3 +1,69 @@
 // PM-Responsive.less
 // Swatch: Pencil Media
 // -----------------------------------------------------
+
+// iPad mode
+@media (min-width: 768px) and (max-width: 1024px) {
+	.navbar-fixed-top, 
+	.navbar-fixed-bottom {
+		margin: 0;
+		.navbar-inner {
+			padding: 0;
+		}
+	}
+
+}
+@media (min-width: 979px) {
+	.jumbotron {
+		margin-top: 75px;
+	}
+}
+
+
+// iPhone and portrait iPad mode
+////////////////////////////////
+@media (min-width: 320px) and (max-width: 768px) {
+	.navbar-fixed-top, 
+	.navbar-fixed-bottom {
+		margin: 0;
+		.navbar-inner {
+			width: 100%;
+			padding: 0;
+		}
+	}
+	header {
+		.navbar-inner {
+			.container {
+				nav {
+					margin-top: -20px;
+					ul {
+						li {
+							width: 25px;
+						}
+					}
+				}
+				.pull-right {
+					float: none;
+				}
+			}
+		}
+	}
+	.jumbotron {
+		margin-top: 75px;
+		zoom: 85%;
+		.services {
+			width: 320px;
+			li {
+				width: 100%;
+			}
+		}
+	}
+	#hmpg {
+		.content {
+			width: 90%;
+		}
+	}
+	#social-bar {
+		display: none;
+	}
+}

@@ -1,5 +1,10 @@
 body {
   padding-top: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333333;
+  background-color: #ffffff;
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
@@ -151,10 +156,9 @@ header {
   z-index: 5;
   text-align: center;
   width: 100%;
+  height: 75px;
 }
 header .navbar-inner .container {
-  width: 100%;
-  min-width: 650px;
   /* MAIN NAV */
 
 }
@@ -169,28 +173,27 @@ header .navbar-inner .container h1 img {
 }
 header .navbar-inner .container nav {
   margin-top: -70px;
-  width: 325px;
+  width: auto;
 }
 header .navbar-inner .container nav ul {
   margin: 0;
   padding: 0;
 }
-header .navbar-inner .container nav li {
-  display: inline;
+header .navbar-inner .container nav ul li {
+  display: inline-block;
   margin: 0;
   padding: 0 2em;
 }
-header .navbar-inner .container nav li:first-child {
+header .navbar-inner .container nav ul li:first-child {
   border-left: none;
 }
-header .navbar-inner .container nav li,
-header .navbar-inner .container nav li a {
+header .navbar-inner .container nav ul li a {
   font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
   color: #333;
   text-decoration: none;
 }
-header .navbar-inner .container nav a:hover,
-header .navbar-inner .container nav li#selected a {
+header .navbar-inner .container nav ul a:hover,
+header .navbar-inner .container nav ul li#selected a {
   color: #0F20BC;
   text-decoration: none;
 }
@@ -206,7 +209,7 @@ header .navbar-inner .container nav li#selected a {
   margin: 0 0 1em 0;
   padding: 0;
 }
-.subnav li {
+.subnav ul li {
   display: inline;
   margin: 0;
   padding: 0 1.5em;
@@ -214,12 +217,12 @@ header .navbar-inner .container nav li#selected a {
   font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
-.subnav li a {
+.subnav ul li a {
   color: #333;
   font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
-.subnav li:first-child {
+.subnav ul li:first-child {
   padding-left: 0;
   border-left: none;
 }
@@ -501,7 +504,6 @@ dt .sml_ico {
   margin-bottom: 5%;
   padding-top: 1em;
   width: 850px;
-  min-width: 800px;
   overflow: hidden;
   /***************/
 
@@ -828,13 +830,12 @@ span.attention {
   box-sizing: border-box;
   background: none;
   margin: 0 auto;
-  margin-top: 10%;
-  padding: 4em 1em;
-  width: 75%;
+  padding: 4em 0;
+  width: 95%;
   text-align: center;
 }
 .jumbotron .services {
-  width: 675px;
+  width: 680px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -844,7 +845,6 @@ span.attention {
   float: left;
   width: auto;
   margin: 0;
-  text-align: center;
   text-decoration: none;
   -webkit-transition: all 0.5s ease-in;
 }
@@ -897,7 +897,6 @@ span.attention {
 #hmpg .content {
   margin-top: 0;
   width: 625px;
-  min-width: 600px;
   text-align: justify;
 }
 #hmpg .content h2 {
