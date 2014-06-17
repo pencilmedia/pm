@@ -20,7 +20,7 @@ define("uxTitle", "User Experience Development : Pencil Media");
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Page Headers
-define("homeHead", "We design and build web stuff.");
+define("homeHead", "Hand-crafted Digital Products.");
 define("workHead", "Work");
 define("aboutHead", "About");
 define("contactHead", "Contact");
