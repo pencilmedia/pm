@@ -1,5 +1,4 @@
-<?php
-// SETTING THE ROOT VARIABLE WE CAN USE IT TO CREATE RELATIVE PATHS
+<?php 
     include("assets/inc/config.inc");
     $ROOT = ''; // Set root for relative paths
     $thisPage="hmpg"; 
@@ -50,6 +49,5 @@
         </article>
         <!-- /container -->
     </section>
-    <?php include("assets/inc/foot.inc.php"); ?>
-</body>
+    <?php include("assets/inc/foot.inc.php"); ?></body>
 </html>

@@ -1,13 +1,41 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 body {
-  padding-top: 0;
+  color: #333333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 20px;
-  color: #333333;
-  background-color: #ffffff;
+  padding-top: 0;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+  background: #ecffe9 url(../img/bg_body.png) repeat-x fixed top left;
 }
 h1 {
   font-size: 200%;
@@ -27,14 +55,14 @@ h3 button,
 h4 button,
 h5 button,
 h6 button {
-  float: right;
-  width: 40px;
-  height: 34px;
-  font-size: 145%;
-  color: #8d9fad;
   background: none;
   border: none;
+  color: #8d9fad;
+  float: right;
+  font-size: 145%;
+  height: 34px;
   text-align: center;
+  width: 40px;
 }
 h1 button:hover,
 h2 button:hover,
@@ -42,8 +70,8 @@ h3 button:hover,
 h4 button:hover,
 h5 button:hover,
 h6 button:hover {
-  color: #43525e;
   background-color: #e6eaed;
+  color: #43525e;
   outline: 1px solid #d7dee2;
 }
 /* Default links 	*/
@@ -63,6 +91,7 @@ h4,
 h5,
 h6 {
   font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font-family: 'Zeyada', cursive;
   margin-bottom: .5em;
 }
 h1 {
@@ -148,31 +177,30 @@ pre {
 }
 /* HEADER */
 header {
-  background: url("../img/bg_header.png") repeat-x top left;
-  /* orange color is #f93*/
-
-  position: fixed;
-  top: 0;
-  z-index: 5;
   text-align: center;
   width: 100%;
-  height: 75px;
+  height: 150px;
+}
+header .navbar-inner {
+  background: url("../img/bg_nav.png") repeat-x top left;
+  border-radius: 0;
+  outline: 1px solid #c3325f;
+  border-bottom: 1px solid #ffffff;
+  box-shadow: 0 0 5px #d9698c;
 }
 header .navbar-inner .container {
   /* MAIN NAV */
 
 }
 header .navbar-inner .container h1 {
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
-  height: 100px;
-  background: url(../img/bg_logo.png) no-repeat center center;
 }
 header .navbar-inner .container h1 img {
   margin: 10px auto;
 }
 header .navbar-inner .container nav {
-  margin-top: -70px;
+  margin-top: -80px;
   width: auto;
 }
 header .navbar-inner .container nav ul {
@@ -188,7 +216,7 @@ header .navbar-inner .container nav ul li:first-child {
   border-left: none;
 }
 header .navbar-inner .container nav ul li a {
-  font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
+  font-family: 'Special Elite', cursive;
   color: #333;
   text-decoration: none;
 }
@@ -268,16 +296,6 @@ header .navbar-inner .container nav ul li#selected a {
   text-decoration: none;
   border: 1px solid transparent;
   background-color: #d9d9d9;
-}
-body {
-  /*background: #f60 url(../img/bg_body.png) repeat-x fixed top left;  orange color is #f93*/
-
-  background: #bbbbaa url(../img/bg_body.png) repeat-x fixed top left;
-  /*color: #543;*/
-
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: .85em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 p {
   margin-bottom: 1em;
@@ -497,6 +515,9 @@ dt .sml_ico {
   cursor: pointer;
   height: 30px;
   width: 30px;
+}
+.navbar-fixed-top + section {
+  margin-top: 150px;
 }
 .content {
   overflow-x: auto;
@@ -844,7 +865,7 @@ span.attention {
 }
 .jumbotron .services li a {
   color: #333;
-  font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
+  font-family: 'Special Elite', cursive;
   font-size: 110%;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
 }
@@ -1000,15 +1021,12 @@ footer {
   height: 40px;
   width: 100%;
   padding: 0;
-  background: url(../img/bg_foot_gradient.png) repeat-x left bottom;
-  background: url(../img/bg_footbar.png) repeat-x left bottom;
 }
 footer ul {
   position: fixed;
   bottom: 5px;
   z-index: 99;
   height: 25px;
-  background: url(../img/bg_footer.png) no-repeat bottom center;
   text-align: center;
   width: 100%;
   margin: 0;
