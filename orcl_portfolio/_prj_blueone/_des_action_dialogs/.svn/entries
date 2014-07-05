@@ -1,0 +1,55 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_blueone/_des_action_dialogs
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2009-05-29T05:06:13.921994Z
+9892
+jnave
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+common_actions
+dir
+
+dm
+dir
+
+home
+dir
+
+pc
+dir
+
+pcm
+dir
+
+pgc
+dir
+
+ppm
+dir
+
+reports
+dir
+
+supplier
+dir
+

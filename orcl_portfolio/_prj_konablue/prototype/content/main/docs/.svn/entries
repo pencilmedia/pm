@@ -1,0 +1,40 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_konablue/prototype/content/main/docs
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2006-10-11T07:42:05.132257Z
+1708
+tiffany
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+appr_chng
+dir
+
+appr_doc
+dir
+
+check_in
+dir
+
+find_docs
+dir
+

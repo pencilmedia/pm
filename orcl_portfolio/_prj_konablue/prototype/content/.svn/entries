@@ -1,0 +1,49 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_konablue/prototype/content
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2007-05-10T23:55:11.006750Z
+4769
+jnave
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+collab
+dir
+
+main
+dir
+
+session
+dir
+
+shared
+dir
+
+switcher
+dir
+
+tasks
+dir
+
+win_ctrls
+dir
+

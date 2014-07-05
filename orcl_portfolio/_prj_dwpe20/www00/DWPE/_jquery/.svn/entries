@@ -1,0 +1,74 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_dwpe20/www00/DWPE/_jquery
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2010-06-11T20:15:39.413619Z
+11296
+amoquette
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+css
+dir
+
+development-bundle
+dir
+
+index.html
+file
+
+
+
+
+2011-01-03T21:05:19.000000Z
+bef35f5a251550a9ee79854af84988ff
+2010-02-05T02:12:12.570668Z
+10203
+amoquette
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2532
+
+js
+dir
+
+plugins
+dir
+

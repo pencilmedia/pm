@@ -1,0 +1,46 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_konablue/prototype/content/main/parts
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2006-10-17T19:48:22.626035Z
+1769
+tiffany
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+change_view
+dir
+
+create_bom
+dir
+
+find_parts
+dir
+
+remove_part
+dir
+
+replace_part
+dir
+
+save_bom_as
+dir
+

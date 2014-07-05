@@ -1,0 +1,34 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_blueone/prototype/web/generated
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2007-02-01T15:19:43.281751Z
+3307
+agi_anthony
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+base
+dir
+
+edited
+dir
+

@@ -1,0 +1,31 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_blueone/prototype/sandbox/pages/sprint_05
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2009-03-25T05:35:53.214856Z
+9727
+rgarcia
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+car_templates
+dir
+

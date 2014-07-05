@@ -1,0 +1,34 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_dwpe20/www00/DWPE/_jquery/development-bundle/themes
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2010-06-11T20:15:39.413619Z
+11296
+amoquette
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+base
+dir
+
+ui-darkness
+dir
+

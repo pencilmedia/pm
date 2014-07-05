@@ -1,0 +1,150 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_konablue/exploratory
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2007-11-28T18:39:10.973443Z
+7577
+rgarcia
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+classes
+dir
+
+collab_nav
+dir
+
+content_display
+dir
+
+css_redux
+dir
+
+framework
+dir
+
+gantt
+dir
+
+index.php
+file
+
+
+
+
+2011-01-03T21:04:58.000000Z
+f12676d194efc149903b34d2fb3f0a5c
+2006-07-17T15:37:10.112883Z
+1128
+agi_dave
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+31485
+
+managed_windows
+dir
+
+modules
+dir
+
+plm_after
+dir
+
+plm_before
+dir
+
+plm_redesign
+dir
+
+simple_panes
+dir
+
+switcher
+dir
+
+tabbed_menus
+dir
+
+tables
+dir
+
+template.php
+file
+
+
+
+
+2011-01-03T21:04:58.000000Z
+5632b12baf6b0cae083c2da504233887
+2006-03-29T05:24:42.393120Z
+384
+andrei
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+668
+
+tests
+dir
+
+uml
+dir
+
+use_case_display
+dir
+

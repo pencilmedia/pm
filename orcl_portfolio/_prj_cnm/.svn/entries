@@ -1,0 +1,61 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_cnm
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2009-07-09T20:23:16.206551Z
+9961
+rgarcia
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+Sandbox
+dir
+
+SandboxFusionLook
+dir
+
+SandboxTabs
+dir
+
+_des_action_dialogs
+dir
+
+_des_pages
+dir
+
+_des_templates
+dir
+
+archive
+dir
+
+communication
+dir
+
+exploration
+dir
+
+input
+dir
+
+www
+dir
+
