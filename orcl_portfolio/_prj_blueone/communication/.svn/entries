@@ -1,0 +1,80 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_blueone/communication
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2009-05-29T05:06:13.921994Z
+9892
+jnave
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+behavior_notes
+dir
+
+func_dif_922x_93.xls
+file
+
+
+
+
+2011-01-03T21:01:57.000000Z
+e4079183806dd67261df16bfc243d958
+2009-04-16T20:40:00.834222Z
+9821
+jnave
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26624
+
+fusion_decision
+dir
+
+presentations
+dir
+
+process_files
+dir
+
+resources
+dir
+
+ui_specs
+dir
+

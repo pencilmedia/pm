@@ -1,0 +1,139 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_blueone/prototype/sandbox/pages/_testing
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2009-04-08T19:42:28.183583Z
+9740
+rgarcia
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+anyall
+dir
+
+calculate_quantities
+dir
+
+dynamic_page
+dir
+
+images
+dir
+
+proj_action_dialogs
+dir
+
+proj_aliasing
+dir
+
+proj_cascade_list
+dir
+
+proj_coqsoft_table
+dir
+
+proj_dashboard
+dir
+
+proj_dependencies_palette
+dir
+
+proj_dependency_rule
+dir
+
+proj_event_listener
+dir
+
+proj_infopop
+dir
+
+proj_mscl_tree
+dir
+
+proj_mss
+dir
+
+proj_multi_button_controls
+dir
+
+proj_mus
+dir
+
+proj_pill_anim
+dir
+
+proj_progress_indicator
+dir
+
+proj_quickview_palette
+dir
+
+proj_redline
+dir
+
+proj_saved_searches
+dir
+
+proj_search
+dir
+
+proj_select_file
+dir
+
+proj_shuttle
+dir
+
+proj_shuttle_control
+dir
+
+proj_sss
+dir
+
+proj_status_tree
+dir
+
+proj_table_issue
+dir
+
+proj_tabs
+dir
+
+proj_terms_condition
+dir
+
+proj_thumbnail
+dir
+
+proj_video
+dir
+
+proj_windowing
+dir
+
+proj_xyz
+dir
+
+search_prompt
+dir
+
+temp
+dir
+

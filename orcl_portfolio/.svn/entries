@@ -1,0 +1,64 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2010-12-22T23:28:06.790356Z
+11368
+rgarcia
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+_prj_atms
+dir
+
+_prj_blueone
+dir
+
+_prj_cem
+dir
+
+_prj_cnm
+dir
+
+_prj_cnm2
+dir
+
+_prj_daps
+dir
+
+_prj_dwpe20
+dir
+
+_prj_exploration
+dir
+
+_prj_konablue
+dir
+
+_prj_spworkbench
+dir
+
+_visual_assets
+dir
+
+presentations_and_templates
+dir
+

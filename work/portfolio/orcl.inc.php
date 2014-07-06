@@ -2,10 +2,10 @@
 
 <ul class="nav nav-tabs nav-pills" id="myTab">
   <li class="active"><a href="#uxd" data-toggle="tab">UX Direct</a></li>
-  <li><a href="#plm" data-toggle="tab">Agile PLM</a></li>
-  <li><a href="#cnm" data-toggle="tab">Oracle CNM</a></li>
-  <li><a href="#daps" data-toggle="tab">Oracle DAPS</a></li>
-  <li><a href="#pharma" data-toggle="tab">Oracle Pharma</a></li>
+  <li><a href="#plm" data-toggle="tab">Agile Product Lifecycle Management</a></li>
+  <li><a href="#cnm" data-toggle="tab">Customer Needs Management</a></li>
+  <li><a href="#daps" data-toggle="tab">Digital Animation Production Suite</a></li>
+  <li><a href="#pharma" data-toggle="tab">Pharma</a></li>
 </ul>
  
 <div class="tab-content">
@@ -17,14 +17,14 @@
     <p>Interaction Design, Visual Design, Prototype</p>
     <h6>URLs:</h6>
     <ul>
-        <li><a href="http://www.pencilmedia.com/orcl_portfolio/uxdirect/v18/" class="pop">View the prototype.</a></li>
-        <li><a href="http://www.pencilmedia.com/orcl_portfolio/uxdirect/poc/" class="pop">View the concept (CSS3 Animation. No JS.)</a></li>
+        <li><a <?php echo 'href="' . $ROOT . '/orcl_portfolio/uxdirect/v18/"' ?> class="pop">View the prototype.</a></li>
+        <li><a <?php echo 'href="' . $ROOT . '/orcl_portfolio/uxdirect/poc/"' ?> class="pop">View the concept (CSS3 Animation. No JS.)</a></li>
     </ul>
-    <img src="<? $path ?>/work/portfolio/wd/websites/orcl/uxd_hmpg.png" alt="Oracle Screenshot" rel="#viewer" />
-    <img src="<? $path ?>/work/portfolio/wd/websites/orcl/uxd_about.png" alt="Oracle Screenshot" rel="#viewer" />
-    <img src="<? $path ?>/work/portfolio/wd/websites/orcl/uxd_de.png" alt="Oracle Screenshot" rel="#viewer" />
-    <img src="<? $path ?>/work/portfolio/wd/websites/orcl/uxd_de_checklist.png" alt="Oracle Screenshot" rel="#viewer" />
-    <img src="<? $path ?>/work/portfolio/wd/websites/orcl/uxd_id.png" alt="Oracle Screenshot" rel="#viewer" />
+    <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/uxd_hmpg.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+    <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/uxd_about.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+    <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/uxd_de.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+    <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/uxd_de_checklist.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+    <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/uxd_id.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
   </div>
 
 
@@ -36,16 +36,16 @@
             <p>Prototype, Web Development, Visual Design</p>
             <h6>URLs:</h6>
             <ul>
-                <li><a href="http://www.pencilmedia.com/orcl_portfolio/_prj_blueone/prototype/sandbox/" class="pop">View the prototype.</a></li>
+                <li><a <?php echo 'href="' . $ROOT . '/orcl_portfolio/_prj_blueone/prototype/sandbox/"' ?> class="pop">View the prototype.</a></li>
             </ul>
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/a9_plm_form.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/a9_plm_form_edit.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/a9_plm_advanced_search.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/a9_plm_advanced_search_customize.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/a9_plm_shuttle_dialog.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/a9_plm_supplier_workflow.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/a9_plm_droppie_icons.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/a9_plm_dialog_error.png" alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/a9_plm_form.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/a9_plm_form_edit.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/a9_plm_advanced_search.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/a9_plm_advanced_search_customize.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/a9_plm_shuttle_dialog.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/a9_plm_supplier_workflow.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/a9_plm_droppie_icons.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/a9_plm_dialog_error.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
         
   </div>
   <div class="tab-pane" id="cnm">
@@ -55,16 +55,16 @@
             <h6>Work Done:</h6>
             <p>Interaction Design, Prototype Development in Flex and XHTML, Iconography</p>
             <h6>Flex Prototype - version 1</h6>
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/orcl_cnm_flex1.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/orcl_cnm_flex2.png" alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/orcl_cnm_flex1.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/orcl_cnm_flex2.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
             <h6>Flex Prototype - version 2</h6>
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/orcl_cnm_fusion_flex1.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/orcl_cnm_fusion_flex2.png" alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/orcl_cnm_fusion_flex1.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/orcl_cnm_fusion_flex2.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
             <h6>Web Prototype</h6>
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/orcl_cnm_1.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/orcl_cnm_2.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/orcl_cnm_3.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/orcl_cnm_4.png" alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/orcl_cnm_1.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/orcl_cnm_2.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/orcl_cnm_3.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/orcl_cnm_4.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
         
   </div>
   <div class="tab-pane" id="daps">
@@ -75,14 +75,14 @@
             <p>Interaction Design, Web Development, Visual Design.</p>
             <h6>URLs:</h6>
             <ul>
-                <li><a href="http://www.pencilmedia.com/orcl_portfolio/_prj_daps/www/" class="pop">View the prototype.</a></li>
+                <li><a <?php echo 'href="' . $ROOT . '/orcl_portfolio/_prj_daps/www/"' ?> class="pop">View the prototype.</a></li>
             </ul>
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/daps_dashboard_worklist.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/daps_dashboard_dailies.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/daps_review_credit.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/daps_detail_process_path.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/daps_browse.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/daps_user_profile.png" alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/daps_dashboard_worklist.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/daps_dashboard_dailies.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/daps_review_credit.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/daps_detail_process_path.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/daps_browse.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/daps_user_profile.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
         
   </div>
   <div class="tab-pane" id="pharma">
@@ -92,10 +92,10 @@
             <h6>Work Done:</h6>
             <p>Interaction Design, Web Development, Visual Design</p>
             <h6>Before</h6>
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/conformia_appshell_before.png" alt="Oracle Screenshot" rel="#viewer" />
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/conformia_tabs_before.png" alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/conformia_appshell_before.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/conformia_tabs_before.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
             <h6>After</h6>
-            <img src="<? $path ?>/work/portfolio/wd/websites/orcl/conformia_appshell_after.png" alt="Oracle Screenshot" rel="#viewer" />
+            <img <?php echo 'src="' . $ROOT . '/work/portfolio/wd/websites/orcl/conformia_appshell_after.png"' ?> alt="Oracle Screenshot" rel="#viewer" />
         
   </div>
 </div>

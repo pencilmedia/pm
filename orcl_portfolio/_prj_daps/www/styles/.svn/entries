@@ -1,0 +1,74 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_daps/www/styles
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2009-11-23T05:16:47.291257Z
+10084
+rgarcia
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+base
+dir
+
+daps.css
+file
+
+
+
+
+2011-01-03T21:01:23.000000Z
+a1d9701190ee6a416cbd3ce7014666dd
+2009-11-10T17:30:09.506579Z
+10052
+amoquette
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+198
+
+datepicker
+dir
+
+themes
+dir
+
+treeview
+dir
+

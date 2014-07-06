@@ -1,0 +1,55 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_cnm/Sandbox/src/popups
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2009-07-09T19:22:12.614216Z
+9960
+rgarcia
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+actions
+dir
+
+attachment
+dir
+
+comment
+dir
+
+contacts
+dir
+
+create
+dir
+
+notes
+dir
+
+quotes
+dir
+
+search
+dir
+
+team
+dir
+

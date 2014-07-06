@@ -1,0 +1,34 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_cnm/www/js
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2009-01-07T16:58:58.214847Z
+9436
+amoquette
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+jquery
+dir
+
+yui
+dir
+

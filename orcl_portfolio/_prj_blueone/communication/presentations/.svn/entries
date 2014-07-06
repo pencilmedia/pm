@@ -1,0 +1,74 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_blueone/communication/presentations
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2009-05-29T05:06:13.921994Z
+9892
+jnave
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+education
+dir
+
+gtm_plan_agile93_v1.ppt
+file
+
+
+
+
+2011-01-03T21:02:08.000000Z
+112662cb6e664a4403b9ec3d4319ca3e
+2009-05-29T05:06:13.921994Z
+9892
+jnave
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+601600
+
+kick-off
+dir
+
+requirements
+dir
+
+status
+dir
+

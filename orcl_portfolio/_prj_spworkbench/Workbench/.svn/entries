@@ -1,0 +1,89 @@
+10
+
+dir
+11368
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile/trunk/_prj_spworkbench/Workbench
+svn+ssh://10.204.40.105/usr/local/svn_repo/agile
+
+
+
+2010-10-05T21:35:44.328886Z
+11367
+amoquette
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ecdbfec5-3f0c-0410-ac18-a2784acba469
+
+accordion_panes
+dir
+
+accordions
+dir
+
+menus
+dir
+
+pages
+dir
+
+project.js
+file
+
+
+
+
+2011-01-03T21:01:21.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2010-10-05T21:35:44.328886Z
+11367
+amoquette
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+shells
+dir
+
+splitters
+dir
+
+tabs
+dir
+
+toolbars
+dir
+
+windows
+dir
+
