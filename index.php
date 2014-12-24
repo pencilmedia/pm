@@ -41,7 +41,7 @@
             <div class="span12">
                 <h2><?php echo homeHead ?></h2>
                 <p>
-                    xxxPencil Media creates websites, user interfaces, branding and icons. I have twelve years of digital expertise on mediums, including web, desktop, and mobile. I offer web host setup, email setup, mockup creation, icon and graphic design, prototyping, web design, cross-browser testing, and search engine optimization (SEO) across multiple platforms.
+                    yyyyPencil Media creates websites, user interfaces, branding and icons. I have twelve years of digital expertise on mediums, including web, desktop, and mobile. I offer web host setup, email setup, mockup creation, icon and graphic design, prototyping, web design, cross-browser testing, and search engine optimization (SEO) across multiple platforms.
                     <a href="/about/" title="Go to about Pencil Media">Learn more</a>.
                 </p>
             </div>
